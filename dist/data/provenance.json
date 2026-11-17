@@ -1,0 +1,28 @@
+{
+  "fetched": "2026-11-17",
+  "jiangshan": {
+    "url": "https://github.com/DeanChensj/jiangshan-map",
+    "layers": [
+      "polity",
+      "region"
+    ],
+    "excluded": [
+      "prefecture",
+      "modern provinces",
+      "generic neighbors"
+    ],
+    "upstreamRef": "main",
+    "revisionNote": "Fetched files retained in processed form; exact commit hash was not available from the API."
+  },
+  "terrain": {
+    "source": "Natural Earth SR_HR 3.2.0",
+    "license": "Public domain",
+    "rendering": "恢复原版柔和SR_HR阴影，无局部锐化；颜色不对应海拔。"
+  },
+  "notes": "Historical layers are schematic. Source authors note incomplete early provenance of the region layer.",
+  "coverage": {
+    "startYear": -2070,
+    "endYear": 1928,
+    "note": "1928年结尾切片沿用来源1928—1930年概括范围；展示窗口限制于1928。"
+  }
+}

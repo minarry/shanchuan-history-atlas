@@ -1,0 +1,40 @@
+/* A separate fictional appendix, never mapped onto Common Era years. */
+#butianQuickEntry{flex:none;border:1px solid #9c8161;color:#765635;background:#efe5d2;border-radius:4px;padding:5px 9px;font-size:10px;white-space:nowrap}
+#butianQuickEntry small{font-size:8px;margin-left:4px;opacity:.75}
+#eraTrack #butianEntry{--era-width:100px;background:#eadfc9;color:#6c5036;border-left:2px solid #a7824d}
+#eraTrack #butianEntry.active,#butianQuickEntry[aria-pressed=true]{background:#77583d;color:#fff5de}
+.butian-mode .timeline-top,.butian-mode #chronologyTrack,.butian-mode .timeline-bottom,.butian-mode #timeTools,.butian-mode #timelineDrawer{display:none!important}
+.butian-mode .sidebar-tabs,.butian-mode .era-heading,.butian-mode #detailQuickNav{display:none!important}
+.butian-mode #layersPanel label:has(input:disabled){opacity:.45}
+.butian-mode #timeAll{display:none}
+#butianTimeline{padding:7px 0 0;min-height:0}
+.bt-timeline-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11px}
+.bt-timeline-heading>div{display:flex;align-items:center;gap:10px}.bt-timeline-heading strong{font:22px var(--serif);letter-spacing:4px}.bt-fiction-pill{font-size:9px;border:1px solid #c3af8a;padding:3px 6px;border-radius:3px;color:#806442}.bt-timeline-heading small{color:#8f8c76;font-size:9px}
+.bt-timeline-actions{display:flex;gap:6px}.bt-timeline-actions button{font-size:10px;border:1px solid #d2c5ae;border-radius:4px;padding:6px 9px}
+.bt-phase-track{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;gap:12px;margin:10px 0 6px;position:relative}
+.bt-phase-track:before{content:'';position:absolute;left:4%;right:4%;top:50%;height:1px;background:#b6a88b}
+.bt-phase-track button{position:relative;text-align:left;border:1px solid #d3c5ab;border-radius:5px;background:#f8f3e6;padding:9px 14px;min-height:47px}
+.bt-phase-track button.active{border-color:#947044;box-shadow:inset 3px 0 #947044;background:#eee0c6}
+.bt-phase-track button span{font-size:9px;color:#9b805c;display:block;margin-bottom:3px}.bt-phase-track button strong{font:16px var(--serif);color:#624c34}.bt-phase-track #butianEventBtn{text-align:center;background:#e9ede0;border-color:#bfcbb3}.bt-phase-track #butianEventBtn strong{color:#456047}
+#butianPhaseNote{font-size:10px;color:#79816e;margin:6px 0;line-height:1.6}
+.bt-panel-tag{font-size:9px;letter-spacing:2px;color:#97764b;margin-bottom:16px}.bt-detail-title{font:30px var(--serif);letter-spacing:4px;font-weight:500;margin:4px 0 9px}.bt-region{font-size:11px;color:#8e8068;line-height:1.8;margin:0 0 18px}
+.bt-faction-list{display:grid;gap:7px;margin:20px 0}.bt-faction-list button{display:flex;align-items:center;gap:10px;text-align:left;background:#f0eddf;border:1px solid #dfddcb;border-radius:5px;padding:10px}
+.bt-faction-list button>i,.bt-faction-title>i{font-style:normal;border:1px solid var(--faction);color:var(--faction);font:20px var(--serif);width:35px;height:35px;display:grid;place-items:center;border-radius:50%}
+.bt-faction-list button div{flex:1}.bt-faction-list strong{display:block;font-size:12px;margin-bottom:4px}.bt-faction-list small{display:block;font-size:9px;line-height:1.5;color:#8c8c77}.bt-faction-list button>span{font-size:12px;color:var(--faction)}
+.bt-faction-title{display:flex;align-items:center;gap:12px;margin-bottom:8px}.bt-faction-title h2{font:27px var(--serif);margin:0}
+.bt-copy{margin:22px 0}.bt-copy h3,.bt-event-step h3{font-size:12px;margin:0 0 8px;color:#67573f}.bt-copy p,.bt-event-step p{font-size:12px;line-height:1.95;color:#6f7a63;margin:0}
+.bt-origin{padding:14px;background:#ececde;border-radius:5px;margin-top:22px;font-size:10px;line-height:1.8;color:#889079}.bt-origin b{color:#817052}.bt-origin p{margin:7px 0}.bt-origin small{font-size:9px}
+.bt-refuge-callout{border:1px solid #b6935f;background:repeating-linear-gradient(135deg,#e9d8b5,#e9d8b5 5px,#eddfc2 5px,#eddfc2 10px);padding:14px;border-radius:5px;color:#745232;font-size:12px}.bt-refuge-callout p{font-size:11px;line-height:1.8;margin-bottom:0}
+.bt-event-step{display:flex;gap:12px;margin:22px 0}.bt-event-step>span{font:22px Georgia;color:#bc9f73}.bt-stage-switch{display:flex;gap:8px;margin-top:18px}.bt-stage-switch button{padding:8px 12px;border:1px solid #c7ccb6;border-radius:4px;font-size:11px}
+.bt-division-key{display:flex;gap:8px;font-size:11px;margin:18px 0}.bt-division-key span{padding:8px;background:#edd9ce;color:#965441;border-radius:3px}.bt-division-key span+span{background:#d9e8e9;color:#397487}
+.bt-marker{background:none;border:none}.bt-marker>span{display:block;width:max-content;white-space:nowrap;transform:translate(-50%,-50%);text-shadow:0 1px 3px #fff9e4,1px 0 3px #fff9e4,-1px 0 3px #fff9e4,0 -1px 3px #fff9e4}
+.bt-faction-label{font:600 18px var(--serif);letter-spacing:2px}.bt-li{color:#72571c}.bt-yao{color:#914521}.bt-human-fire{color:#8a3535}.bt-human-water{color:#2a6388}.bt-ling{color:#3e6b35}.bt-earth{color:#735033}
+.bt-earth>span{font-size:15px;padding:6px 9px;border:1px solid #9b7648;background:#f6e7c5e8;border-radius:4px;box-shadow:0 2px 6px #67502a22}
+.bt-place-label{font-size:10px;color:#493e2c}.bt-place-label>span{transform:translate(8px,-50%)}.bt-birthplace>span{color:#a34a35;font-size:10px;background:#fff0d9e6;border:1px solid #c29463;padding:4px 6px;border-radius:3px;transform:translate(-50%,-155%)}
+.bt-side-label{font-size:11px;letter-spacing:2px}.bt-old-label{color:#826345;font:italic 13px var(--serif);letter-spacing:2px}
+.bt-portal-label{font-size:11px;color:#70517e}.bt-portal-label>span{background:#f2ebf1e8;border:1px solid #ac8db4;border-radius:4px;padding:6px 9px;transform:translate(-12%,-50%)}.bt-realm-label{font:12px var(--serif);color:#73577f}.bt-realm-label>span{transform:translate(-50%,25px)}
+.bt-refuge-shape{fill:url(#butianRefugeHatch)}
+@media(max-width:760px){
+ #butianQuickEntry{font-size:9px;padding:5px 6px}#butianQuickEntry small{display:none}.bt-timeline-heading strong{font-size:20px}.bt-timeline-heading small{display:none}.bt-timeline-actions{gap:4px}.bt-timeline-actions button{font-size:9px;padding:5px}#butianFullMap{display:none}.bt-fiction-pill{font-size:8px}.bt-timeline-heading>div{gap:5px}
+ .bt-phase-track{gap:5px;margin-top:11px}.bt-phase-track button{padding:9px 7px;min-height:57px}.bt-phase-track button strong{font-size:13px}.bt-phase-track button span{font-size:8px}#butianPhaseNote{font-size:9px}.bt-faction-label{font-size:14px;letter-spacing:1px}.bt-earth>span{font-size:12px}.bt-portal-label{font-size:9px}.bt-birthplace>span{font-size:9px}.bt-place-label{font-size:9px}
+}

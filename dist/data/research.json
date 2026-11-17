@@ -1,0 +1,1237 @@
+{
+  "version": "2.0",
+  "updated": "2026-11-17",
+  "methodology": "通史选读组织问题；条目以所列原典、机构专题核对。政治与地理段落为综合解释；近似坐标用于教学，不是测绘成果。",
+  "milestones": [
+    {
+      "id": "moment-zhou-enfeoffment",
+      "year": -1046,
+      "name": "周初分封与东方经营",
+      "category": "制度",
+      "summary": "灭商后，周把宗亲、功臣及旧族安置于东方，以诸侯据点联系王畿与新征服地区。分封是延续多年的政治重组。",
+      "politics": "武王保留部分商人组织，成王时期又经历武庚与管蔡叛乱；周公东征后，封国、迁民与宗族关系成为整合东方的工具。",
+      "geography": "地图锚点置于镐京附近；成周洛邑则承担连接关中与东方的重要作用。",
+      "impact": "形成以王室、诸侯和地方族群相联的秩序，也为后来的区域国家发展留下空间。",
+      "lng": 108.8,
+      "lat": 34.25,
+      "sourceRefs": [
+        "ancient-shiji-4"
+      ],
+      "uncertainty": "前1046年为周灭商常见纪年；分封与东方经营跨武王、成王数代，点位代表王畿。"
+    },
+    {
+      "id": "moment-zhou-eastward",
+      "year": -770,
+      "name": "平王东迁",
+      "category": "政权",
+      "summary": "西周覆亡后，平王迁往洛邑。王室失去原有西部政治中心，依赖诸侯支持维持名义共主地位。",
+      "politics": "《周本纪》将东迁与避戎寇相连，并记王室衰微、强国兼并弱国。王权下降并非一天完成，而是长期资源与权力重组。",
+      "geography": "洛邑位于伊洛盆地，衔接黄河渡口、关中东口与中原道路，适于联系东方诸侯。",
+      "impact": "通常作为东周起点；此后政治竞争更多围绕区域强国与诸侯联盟展开。",
+      "lng": 112.45,
+      "lat": 34.65,
+      "sourceRefs": [
+        "ancient-shiji-4"
+      ],
+      "uncertainty": "前770年采用通行纪年；锚点为洛阳地区，非复原周代宫城界址。"
+    },
+    {
+      "id": "moment-three-jin",
+      "year": -403,
+      "name": "韩赵魏获列诸侯",
+      "category": "政权",
+      "summary": "周王室承认韩、赵、魏的诸侯地位，确认晋国卿族长期瓜分权力后的政治格局。此事与前453年晋阳之战相距半世纪。",
+      "politics": "赵、韩、魏先联手灭智氏，随后各自经营土地与官僚组织；列为诸侯提供名分，晋国残余则尚未立刻消失。",
+      "geography": "以赵地邯郸附近为观察锚点，三晋分别占据汾河流域、太行内外与河洛通道。",
+      "impact": "中原竞争转为多个领土国家之间的战争与外交，改革与人口土地动员更加重要。",
+      "lng": 114.49,
+      "lat": 36.61,
+      "sourceRefs": [
+        "ancient-shiji-43"
+      ],
+      "uncertainty": "前403年指政治承认，不等于三家首次分地；地图点仅代表赵国所在区域。"
+    },
+    {
+      "id": "moment-shangyang-reform",
+      "year": -356,
+      "name": "商鞅变法启动",
+      "category": "制度",
+      "summary": "秦孝公任用商鞅推动改革，将农耕、军功与国家奖惩相连，并在后续改革中调整基层组织、县制及度量衡。",
+      "politics": "改革依赖君主支持，也与旧贵族特权发生冲突。军功授爵使战争功绩成为取得地位的重要途径。",
+      "geography": "以关中秦国核心区为锚点；统一行政与征发制度，帮助国家把土地、人口和军队组织起来。",
+      "impact": "提升秦国持续动员与扩张能力，但并非单一法令即可解释秦崛起，后续经营与对手变化同样重要。",
+      "lng": 108.7,
+      "lat": 34.35,
+      "sourceRefs": [
+        "ancient-shiji-68"
+      ],
+      "uncertainty": "前356年采用第一次变法通行纪年；诸措施分期实施，锚点非具体颁令地点。"
+    },
+    {
+      "id": "moment-qin-unification",
+      "year": -221,
+      "name": "秦统一与郡县体系",
+      "category": "制度",
+      "summary": "秦灭齐后结束战国主要诸侯并立的局面。秦王政采用皇帝称号，以郡县组织广阔疆域，并推动文字、度量衡等制度统一。",
+      "politics": "朝廷讨论分封与郡县的取舍，最终以中央任命地方官为主。征服后的统治需要把原诸侯人口与资源纳入同一行政结构。",
+      "geography": "咸阳是政治中心；关中通过关隘、黄河及陆路连接东方，交通与文书传递构成治理条件。",
+      "impact": "建立统一帝国的重要制度框架，同时征役与行政扩张增加了社会负担。",
+      "lng": 108.7,
+      "lat": 34.36,
+      "sourceRefs": [
+        "ancient-shiji-6"
+      ],
+      "uncertainty": "前221年为灭齐与称帝之年；统一措施有先行基础与后续调整，并非当年一律完成。"
+    },
+    {
+      "id": "moment-xiangyu-enfeoffment",
+      "year": -206,
+      "name": "项羽分封十八王",
+      "category": "政权",
+      "summary": "秦亡后，项羽按军功和自身势力安排诸侯，刘邦被封汉王，秦地则分授降秦将领，项羽自都彭城。",
+      "politics": "分封与原有盟约、旧王族诉求及参战者利益冲突；田荣等未得预期地位，使新秩序很快遭遇反抗。",
+      "geography": "彭城连接淮泗、中原与齐地；刘邦获巴蜀、汉中后，依托盆地资源并谋求穿越秦岭进入关中。",
+      "impact": "战后权力安排未形成稳定联盟，楚汉相争与区域重新组合随之展开。",
+      "lng": 117.19,
+      "lat": 34.26,
+      "sourceRefs": [
+        "ancient-shiji-7"
+      ],
+      "uncertainty": "前206年为分封主要年份；彭城为项羽政治中心，诸国界线不据此精确复原。"
+    },
+    {
+      "id": "moment-han-foundation",
+      "year": -202,
+      "name": "汉帝国建立并入都关中",
+      "category": "政权",
+      "summary": "楚汉战争后，刘邦即皇帝位，重新安排韩信、彭越等诸侯的封地，先在洛阳处理政务，随后入都关中。",
+      "politics": "汉初依赖诸侯与功臣联盟，郡县与诸侯王国并存；皇帝必须同时安置功劳、恢复生产与控制可能独立的军事势力。",
+      "geography": "关中有山河屏障、农业腹地和通向东方的关隘，成为皇帝经营天下的后方。",
+      "impact": "汉朝开始战后重建，但王国与中央关系仍需多年调整，并最终引出削藩冲突。",
+      "lng": 108.9,
+      "lat": 34.3,
+      "sourceRefs": [
+        "ancient-shiji-8"
+      ],
+      "uncertainty": "前202年指称帝及入都关中；地点以长安地区代表，非即位坛址。"
+    },
+    {
+      "id": "moment-zhangqian-west",
+      "year": -138,
+      "name": "张骞首次出使西域",
+      "category": "外交",
+      "summary": "汉武帝派张骞寻找大月氏，试图联合其夹击匈奴。张骞被匈奴扣留多年，脱身后经大宛、康居抵达月氏及大夏地区。",
+      "politics": "月氏已迁居富饶地区，缺少东返报复匈奴的意愿，原定军事联盟未能实现；出使却扩大了汉廷对西方诸国的认识。",
+      "geography": "道路跨越河西、中亚绿洲与草原势力范围，通行受地方政权、季节、水源与补给约束。",
+      "impact": "所得情报促成后续使节往来与战略调整；丝路交流有更早基础，并非由单次出使突然开始。",
+      "lng": 108.9,
+      "lat": 34.3,
+      "sourceRefs": [
+        "ancient-shiji-123"
+      ],
+      "uncertainty": "前138年采用首次出发通行纪年；锚点为汉廷所在地，不绘制未经证实的精确路线。"
+    },
+    {
+      "id": "moment-wangmang-xin",
+      "year": 9,
+      "name": "王莽建立新朝",
+      "category": "政权",
+      "summary": "王莽代汉称帝，改国号为新、建元始建国。新政权以古制与符命建立合法性，随后调整土地、币制及行政制度。",
+      "politics": "王莽在外戚与朝廷政治中逐步掌权；更换诸侯与外部政权的称号、印绶，亦冲击既有利益与外交关系。",
+      "geography": "以长安为统治中心，制度改革须通过地方官府推广；庞大疆域使执行、信息与地方回应难以一致。",
+      "impact": "改革及权力转换加剧社会政治摩擦，后来又与灾荒、起义叠加，不能只用个人成败解释新朝覆亡。",
+      "lng": 108.9,
+      "lat": 34.3,
+      "sourceRefs": [
+        "ancient-hanshu-99m"
+      ],
+      "uncertainty": "采用公元9年建新通行纪年；改革跨多年，点位代表首都而非政策全部影响范围。"
+    },
+    {
+      "id": "moment-eastern-han",
+      "year": 25,
+      "name": "刘秀称帝与东汉建立",
+      "category": "政权",
+      "summary": "刘秀在河北积累军政力量后，于鄗南称帝，改元建武，随后进入洛阳经营新的政治中心。建立政权并不等于天下已统一。",
+      "politics": "部将支持、地方士人归附与汉室宗族身份共同支撑即位；更始、赤眉及其他地方势力仍在争夺人口与土地。",
+      "geography": "河北是军队与支持者的重要来源，河内及黄河渡口连接洛阳，使北方根据地可转化为中原统治资源。",
+      "impact": "恢复汉号并开始长期统一战争，皇权与地方豪强的合作也影响此后的政治结构。",
+      "lng": 112.45,
+      "lat": 34.65,
+      "sourceRefs": [
+        "ancient-houhan-1"
+      ],
+      "uncertainty": "公元25年为建武元年；锚点为洛阳，实际即位地点在今河北柏乡、高邑附近。"
+    },
+    {
+      "id": "moment-tongji-canal",
+      "year": 605,
+      "name": "通济渠开凿与东都建设",
+      "category": "制度",
+      "summary": "隋炀帝营建东都洛阳，同时开通济渠，将黄河、淮河与既有水道连接起来，并迁徙人口、组织大规模劳役。",
+      "politics": "统一王朝试图把东部财赋、南方物资与都城需求纳入中央调度；工程收益与短期徭役负担同时存在。",
+      "geography": "洛阳位于关中通往河洛和东部平原的节点。地图以东都标记工程体系，不能把一条渠线等同于整个隋唐大运河。",
+      "impact": "水运条件支撑此后都城供给与南北联系，也使交通建设、财政汲取和地方社会承受力成为同一政治问题。",
+      "lng": 112.45,
+      "lat": 34.68,
+      "sourceRefs": [
+        "med-dashiji-48"
+      ],
+      "uncertainty": "605为通济渠及东都工程启动年；完整运河体系分期形成，点位代表洛阳。"
+    },
+    {
+      "id": "moment-tang-founded",
+      "year": 618,
+      "name": "李渊建唐",
+      "category": "政权",
+      "summary": "李渊在长安即帝位，改元武德，承接隋代官僚与行政资源，并着手修订律令。唐的建立与统一战争是两个不同阶段。",
+      "politics": "李氏依靠关陇军政网络起家，又须招纳隋官、协调宗室和功臣，并处理与突厥的既有军事联系。",
+      "geography": "关中提供都城和基础腹地，但洛阳、河北及江淮仍由其他力量控制；向东突破关隘是扩张的关键。",
+      "impact": "新朝获得持续动员的政权中心，天下格局仍要由随后薛举、王世充、窦建德等战事重塑。",
+      "lng": 108.94,
+      "lat": 34.27,
+      "sourceRefs": [
+        "med-tongjian-185"
+      ],
+      "uncertainty": "618指长安即位；点位是唐长安范围示意，不能代表当年已完成全国统一。"
+    },
+    {
+      "id": "moment-an-lushan-revolt",
+      "year": 755,
+      "name": "安史之乱起事",
+      "category": "政权",
+      "summary": "安禄山从范阳起兵，率边军沿河北平原南下，唐朝迅速陷入跨区域内战。此前积累的边镇军力和朝廷猜忌在此转化为公开冲突。",
+      "politics": "一人兼领多个节度使放大了军政资源集中，安禄山与杨国忠的冲突加剧危机；不能只用个人恩怨解释制度性风险。",
+      "geography": "范阳连通东北边防与华北平原，叛军可沿交通走廊威胁洛阳，再向潼关与关中推进。",
+      "impact": "战争迫使唐廷重组兵力、财赋与盟友关系，藩镇格局的变化也延续到平乱之后。",
+      "lng": 116.3,
+      "lat": 39.86,
+      "sourceRefs": [
+        "med-tongjian-216",
+        "med-tongjian-217"
+      ],
+      "uncertainty": "755为起事年，战争至763年结束；范阳点位为今北京西南部的城市尺度定位。"
+    },
+    {
+      "id": "moment-two-tax-law",
+      "year": 780,
+      "name": "两税法施行",
+      "category": "制度",
+      "summary": "唐德宗采纳杨炎建议，以夏、秋两次征收为框架，按现居和资产等原则组织赋税，回应户籍失实、人口流动和旧税役体系难以维持的问题。",
+      "politics": "中央希望整理税目、核定预算和征收责任，但地方军费、藩镇权力及后续加派影响制度实际运行。",
+      "geography": "制度面向全国财赋网络，长安代表决策中心；其执行依赖各州县对流动人口、土地和商业活动的掌握。",
+      "impact": "税收依据更突出财产与现居状态，为理解唐后期财政和地方权力关系提供重要节点，不能等同于税负普遍下降。",
+      "lng": 108.94,
+      "lat": 34.27,
+      "sourceRefs": [
+        "med-tongjian-226"
+      ],
+      "uncertainty": "780为颁行年；各地执行存在差异，地图点位代表决策地而非单一实施地点。"
+    },
+    {
+      "id": "moment-tang-falls",
+      "year": 907,
+      "name": "唐亡与后梁建立",
+      "category": "政权",
+      "summary": "朱温接受唐哀帝禅位，建立后梁，唐朝结束。形式上的改朝换代发生在长期军阀竞争、都城迁移和皇权受制的背景中。",
+      "politics": "掌握军队与财赋的区域强权取代唐廷，但河东、凤翔及南方诸国并未因此服从同一个中央。",
+      "geography": "汴州位于中原水陆交通网，成为朱温的主要根基；洛阳仍保有政治象征，两座城市共同解释后梁的空间组织。",
+      "impact": "北方进入五代更替，南方诸政权并存。907是政权纪年分界，并非全国秩序在同日骤然改变。",
+      "lng": 114.31,
+      "lat": 34.8,
+      "sourceRefs": [
+        "med-tongjian-266"
+      ],
+      "uncertainty": "907为后梁建国年；地图以汴州标记权力根基，禅代仪式和唐末政治活动亦涉及洛阳。"
+    },
+    {
+      "id": "moment-sixteen-prefectures",
+      "year": 936,
+      "name": "石敬瑭借契丹建晋与燕云割让",
+      "category": "外交",
+      "summary": "石敬瑭反后唐时向契丹求援，以称臣及割让卢龙、雁门以北诸州等条件换取军事支持，后晋由此建立。",
+      "politics": "这是一场内战与外部干预相互嵌合的权力交易；部下已警告割地的长期代价，政权生存仍压过边防考虑。",
+      "geography": "相关州县横跨燕山南麓和山西北部，包含农耕人口、城镇及关口，不能只理解为失去一条天然长城。",
+      "impact": "辽获得向南经营的重要基础，也改变后来宋辽争夺的起点；防线价值仍受后勤、城防和外交共同制约。",
+      "lng": 116.35,
+      "lat": 39.9,
+      "sourceRefs": [
+        "med-tongjian-280"
+      ],
+      "uncertainty": "936记求援、建晋及割地约定，实际接收有过程；点位以幽州代表跨区域的燕云诸州。"
+    },
+    {
+      "id": "moment-song-founded",
+      "year": 960,
+      "name": "陈桥兵变与宋建立",
+      "category": "政权",
+      "summary": "后周禁军将领赵匡胤在陈桥军变后回到开封即位，建国号宋。朝廷继续使用不少后周官员和行政资源。",
+      "politics": "军事拥立延续五代权力更替方式，新朝随后必须处理禁军、节镇与中央之间的关系；建国本身不等于这些矛盾已经消失。",
+      "geography": "开封依托平原交通与水运供应，利于调集财赋，也缺乏关中式山川屏障，防务需要前沿城寨和机动兵力配合。",
+      "impact": "宋以中原为基础逐步推进统一，但南方诸国和北汉尚存，燕云及辽朝也不在新朝控制之下。",
+      "lng": 114.31,
+      "lat": 34.8,
+      "sourceRefs": [
+        "med-songshi-1"
+      ],
+      "uncertainty": "960为建隆元年；开封点位代表新朝中心，陈桥军变发生于其东北。"
+    },
+    {
+      "id": "moment-chanyuan-peace",
+      "year": 1005,
+      "name": "澶渊之盟与宋辽休兵",
+      "category": "外交",
+      "summary": "澶州对峙后，宋辽通过使臣往返确认和议，辽军撤退。宋廷遣使安抚河北、收葬死者并减免受兵地区赋役。",
+      "politics": "双方都需要把战争风险转为可以持续的外交安排；宋保持本土统治，辽取得约定财物，和平仍依赖边防与交涉维持。",
+      "geography": "澶州临近黄河渡口，战争逼近开封的压力促成谈判；和议之后，边境秩序与民众恢复生产成为重点。",
+      "impact": "此后宋辽关系获得较长期稳定，但和平不等于边界争执和军事准备终止。",
+      "lng": 115.03,
+      "lat": 35.76,
+      "sourceRefs": [
+        "med-songshi-7"
+      ],
+      "uncertainty": "盟约见景德元年十二月，公历已入1005；部分叙述依旧历记1004，点位标澶州。"
+    },
+    {
+      "id": "moment-southern-song-founded",
+      "year": 1127,
+      "name": "赵构即位与南宋政权延续",
+      "category": "政权",
+      "summary": "靖康之变后，赵构在应天府即位，改元建炎，重建宋朝中枢。诏令涉及招集官员、整编军队、减免欠负和安抚地方。",
+      "politics": "朝廷必须同时回应二帝被掳、金方扶植政权、军队离散与民间勤王力量，统治延续需要重新组织政治合法性。",
+      "geography": "应天府即今商丘一带，并非今天的南京。此时朝廷尚未稳定驻于临安，仍须在淮河、长江之间寻找防御和供给空间。",
+      "impact": "宋室延续为日后南宋格局奠定政权基础，迁移、财政重建和军事防线形成则经历更长过程。",
+      "lng": 115.65,
+      "lat": 34.4,
+      "sourceRefs": [
+        "med-songshi-24"
+      ],
+      "uncertainty": "1127为应天府即位年；“南宋”是后世分期称谓，点位不可误放今南京。"
+    },
+    {
+      "id": "moment-shaoxing-peace",
+      "year": 1141,
+      "name": "绍兴和议定盟",
+      "category": "外交",
+      "summary": "宋金达成绍兴和议，约定东部以淮水中流等为界，宋向金支付银绢；随后继续划定西部边界和办理人员归还。",
+      "politics": "议和伴随宋廷收束主要将领兵权，高宗、秦桧选择稳定统治与停止大规模北伐；其代价和条件在当时就存在激烈争论。",
+      "geography": "东部淮河与西部秦岭关隘构成不同防御区段，实际疆界不能简化为贯通全国的一条淮河直线。",
+      "impact": "南北对峙获得阶段性制度安排，军费、地方防务和恢复生产仍需处理，战争亦未从此永久停止。",
+      "lng": 120.16,
+      "lat": 30.25,
+      "sourceRefs": [
+        "med-songshi-29",
+        "med-songshi-30"
+      ],
+      "uncertainty": "1141为定盟年，1142继续划界和执行；点位取临安，代表宋廷决策中心。"
+    },
+    {
+      "id": "moment-mongol-state",
+      "year": 1206,
+      "name": "铁木真被推为成吉思汗",
+      "category": "政权",
+      "summary": "铁木真整合蒙古高原多部后，在斡难河源一带大会诸王群臣，被推为成吉思汗。军事组织与政治联盟获得新的共同权威。",
+      "politics": "统一过程伴随旧部族关系重组、功臣分配和军政编制建设，汗权既依赖个人威望，也依赖诸王与将领协作。",
+      "geography": "高原河谷、水草与季节性移动支撑军队和牧群，河源大会地点只是政治中心之一，不能套用固定农耕都城的概念。",
+      "impact": "此后对西夏、金及更远地区的扩张拥有更集中的动员基础，但帝国制度与统治范围仍在持续变化。",
+      "lng": 109.2,
+      "lat": 48.6,
+      "sourceRefs": [
+        "med-yuanshi-1"
+      ],
+      "uncertainty": "1206为通常纪年；斡难河源会盟地点有讨论，点位为河源区域示意，不作精确遗址。"
+    },
+    {
+      "id": "moment-kublai-accession",
+      "year": 1260,
+      "name": "忽必烈即位与蒙古汗位争夺",
+      "category": "政权",
+      "summary": "蒙哥去世后，忽必烈在开平即位；阿里不哥在蒙古本土另获拥立，汗位之争转化为军事与财政资源的竞争。",
+      "politics": "忽必烈建立中书省等机构，吸纳不同背景官员，并需要争取诸王、将领和地方政权支持；即位并未带来无争议的帝国统一。",
+      "geography": "开平处于草原与华北农耕区的接合位置，使蒙古政治传统和汉地人口、粮赋资源产生直接联系。",
+      "impact": "内战促使权力和财政组织进一步调整，也为后来元朝的制度建设提供背景。",
+      "lng": 116.18,
+      "lat": 42.36,
+      "sourceRefs": [
+        "med-yuanshi-4"
+      ],
+      "uncertainty": "1260为开平即位年；点位取上都遗址一带，汗位争夺延续至1264。"
+    },
+    {
+      "id": "moment-yuan-name",
+      "year": 1271,
+      "name": "忽必烈建国号大元",
+      "category": "政权",
+      "summary": "忽必烈颁诏采用“大元”国号，将新王朝表述纳入中国传统政治语言。此时襄阳战事未结束，南宋也仍然存在。",
+      "politics": "改国号旨在强化统治名义和制度秩序，同时维系蒙古皇室、军事集团与汉地官僚等不同政治力量。",
+      "geography": "华北的新政治中心连接草原与农耕腹地，军事和财政资源逐步向汉水、长江方向投送；国号改变不等于疆域当年完全定型。",
+      "impact": "此举为后来完成对南宋的征服及跨区域治理提供王朝框架，不能据此把蒙古帝国各汗国视为同一行政体系。",
+      "lng": 116.39,
+      "lat": 39.92,
+      "sourceRefs": [
+        "med-yuanshi-7"
+      ],
+      "uncertainty": "1271为颁布国号年；点位示北京地区中枢，正式改称大都在次年。"
+    },
+    {
+      "id": "moment-ming-founded",
+      "year": 1368,
+      "name": "朱元璋在应天府建明",
+      "category": "政权",
+      "summary": "朱元璋在应天府即皇帝位，定国号明、年号洪武，设置皇室与中央官僚秩序。同年北伐继续，元廷后来退出大都。",
+      "politics": "新朝依靠江南战争中形成的军政集团，既要分配功臣权位，也要恢复赋役和地方行政，建国与制度重整同步推进。",
+      "geography": "应天府即今南京，位于长江下游交通节点，江南财赋和水运支持北伐；政治中心尚未迁往北京。",
+      "impact": "明初统一仍需继续征服与谈判，边疆势力和元朝残余并未在建国时消失，新王朝的统治结构也逐步形成。",
+      "lng": 118.79,
+      "lat": 32.06,
+      "sourceRefs": [
+        "med-mingshi-2",
+        "med-mingshi-125"
+      ],
+      "uncertainty": "1368为建国年，点位取南京；不将当年的建国、攻取大都和后来全国整合混为一事。",
+      "sequence": 10
+    },
+    {
+      "id": "moment-qing-beijing",
+      "year": 1644,
+      "name": "清廷迁都北京",
+      "category": "政权",
+      "summary": "清军进入北京后，清廷决定由盛京迁都北京，顺治帝在北京建立新的统治中枢。",
+      "politics": "清政权由经营东北转向争夺全国，需要吸纳旧有官僚、财政与政治象征资源。",
+      "geography": "北京连接华北平原与东北通道，既能向中原展开，也保留关外联系。",
+      "impact": "迁都强化入关后的统治承诺，但南明、大顺余部及其他力量仍继续抵抗。",
+      "lng": 116.4,
+      "lat": 39.9,
+      "sourceRefs": [
+        "modern-shanhai"
+      ],
+      "uncertainty": "标记政治中心，非1644年某一日全国控制范围。"
+    },
+    {
+      "id": "moment-nerchinsk",
+      "year": 1689,
+      "name": "《尼布楚条约》",
+      "category": "外交",
+      "summary": "清俄经雅克萨战事后谈判，以河流和分水岭为依据议定部分边界，并规定撤堡及贸易往来。",
+      "politics": "军事施压转为外交安排，两国都需要降低遥远边疆持续驻兵的成本。",
+      "geography": "额尔古纳河、格尔必齐河及相关山岭成为界线参照，河流也连接贸易与移民活动。",
+      "impact": "约定约束双方沿黑龙江的扩张，使边疆治理加入正式条约框架。",
+      "lng": 116.58,
+      "lat": 51.99,
+      "sourceRefs": [
+        "modern-treaty-nerchinsk"
+      ],
+      "uncertainty": "点位为议约地；古地名与条约版本需专门考证，不据此描绘精确现代边界。"
+    },
+    {
+      "id": "moment-nanjing-treaty",
+      "year": 1842,
+      "name": "《南京条约》与五口通商",
+      "category": "外交",
+      "summary": "鸦片战争后，清英签订条约，开放广州、厦门、福州、宁波、上海通商，并规定割让香港岛及赔款等事项。",
+      "politics": "英国把海军压力转化为通商制度与条约权利，清廷对外关系发生转折。",
+      "geography": "五个沿海口岸连接内地市场，长江口的上海尤其具有通达江南腹地的条件。",
+      "impact": "贸易与财政重心随后变化；口岸开放不等于所在城市全部成为外国领土。",
+      "lng": 118.75,
+      "lat": 32.09,
+      "sourceRefs": [
+        "modern-treaty-nanjing"
+      ],
+      "uncertainty": "标记南京议约区域；领事裁判权等后续条约内容不归入本约。"
+    },
+    {
+      "id": "moment-xinjiang-province",
+      "year": 1884,
+      "name": "新疆建省",
+      "category": "制度",
+      "summary": "清政府在新疆正式建省，以迪化为省会，边疆治理进一步向行省行政体系转变。",
+      "politics": "建省把军事控制、地方行政与财政筹措联系起来，改变此前多种制度并存的管理结构。",
+      "geography": "天山南北盆地、绿洲和山口使行政交通仍依赖长距离驿路，省会位置影响对内联系。",
+      "impact": "版图颜色不变，也可能发生重要制度变化；应同时观察行省中心和通道。",
+      "lng": 87.62,
+      "lat": 43.8,
+      "sourceRefs": [
+        "modern-xinjiang"
+      ],
+      "uncertainty": "1884年为正式建省节点，筹议与实施历时较长；点位为迪化。"
+    },
+    {
+      "id": "moment-shimonoseki",
+      "year": 1895,
+      "name": "《马关条约》",
+      "category": "外交",
+      "summary": "甲午战争后清日签订条约，涉及台湾、澎湖及辽东等地的割让，东亚政治格局受到重大冲击。",
+      "politics": "战争失败暴露清廷军事与财政困境，日本把战果转化为领土和经济要求。",
+      "geography": "辽东扼渤海门户，台湾与澎湖位于东南海路；这些区域具有不同的大陆、海岛战略意义。",
+      "impact": "条约后辽东因列强干预另有交涉，台湾进入日本殖民统治时期，不能将条文视作此后不变的地图。",
+      "lng": 130.93,
+      "lat": 33.95,
+      "sourceRefs": [
+        "modern-shimonoseki"
+      ],
+      "uncertainty": "点位为日本下关议约地；此节点展示签约，后续实施与变更需另看年代。"
+    },
+    {
+      "id": "moment-republic-1912",
+      "year": 1912,
+      "name": "中华民国成立",
+      "category": "政权",
+      "summary": "孙中山在南京就任临时大总统，中华民国临时政府成立，随后临时参议院制定《临时约法》。",
+      "politics": "共和制度与省级响应、南北谈判及北洋军事实力相互制约，革命胜利并未立即带来统一稳定。",
+      "geography": "南京是南方革命政治中心，北京掌握北方旧有军政资源，两城关系影响权力转移。",
+      "impact": "君主政体结束后，中央地方关系仍需重建，形式上的共和国不等同于各地控制完全一致。",
+      "lng": 118.8,
+      "lat": 32.06,
+      "sourceRefs": [
+        "modern-republic",
+        "modern-republic2"
+      ],
+      "uncertainty": "点位取南京临时政府所在地；清帝退位与政府迁北京是同年后续过程。"
+    },
+    {
+      "id": "moment-first-cooperation",
+      "year": 1924,
+      "name": "第一次国共合作形成",
+      "category": "政权",
+      "summary": "国民党一大在广州举行，国民党改组，共产党员以个人身份加入国民党，合作正式形成。",
+      "politics": "联俄、联共、扶助农工把军事建设与社会动员联结起来，但双方组织目标及内部政治力量并不完全一致。",
+      "geography": "广东根据地与港口、珠江水运相联系，成为向湖南、江西及长江流域展开的起点。",
+      "impact": "合作为国民革命军建设和北伐准备条件，政治联盟成为随后版图变化的重要前提。",
+      "lng": 113.26,
+      "lat": 23.13,
+      "sourceRefs": [
+        "modern-cooperation"
+      ],
+      "uncertainty": "此处是政治组织节点，不能将1924年合作等同于1926年北伐已经发动。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ancient-shiji-4",
+      "title": "《史记·周本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-zuo-zhuang",
+      "title": "《左传·庄公九至十年》",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/莊公",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-zuo-xi",
+      "title": "《左传·僖公二十七至二十八年》",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/僖公",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-zuo-xuan",
+      "title": "《左传·宣公十二年》",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/宣公",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-zuo-cheng",
+      "title": "《左传·成公十六年》",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/成公",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-zuo-ding",
+      "title": "《左传·定公四至五年》",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/定公",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-43",
+      "title": "《史记·赵世家》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-65",
+      "title": "《史记·孙子吴起列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷065",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-73",
+      "title": "《史记·白起王翦列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷073",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-7",
+      "title": "《史记·项羽本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷007",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-92",
+      "title": "《史记·淮阴侯列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷092",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-110",
+      "title": "《史记·匈奴列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷110",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-111",
+      "title": "《史记·卫将军骠骑列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷111",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-57",
+      "title": "《史记·绛侯周勃世家》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷057",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-houhan-1",
+      "title": "《后汉书·光武帝纪上》",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷1上",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-1",
+      "title": "《三国志·武帝纪及裴注》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-54",
+      "title": "《三国志·周瑜鲁肃吕蒙传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-32",
+      "title": "《三国志·先主传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-36",
+      "title": "《三国志·关张马黄赵传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷36",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-58",
+      "title": "《三国志·陆逊传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷58",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-17",
+      "title": "《三国志·张乐于张徐传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷17",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-sanguo-28",
+      "title": "《三国志·王毌丘诸葛邓钟传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷28",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-jin-42",
+      "title": "《晋书·王浑王濬等传》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷042",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-tongjian-105",
+      "title": "《资治通鉴·卷105 晋纪二十七》",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷105",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-tongjian-177",
+      "title": "《资治通鉴·卷177 隋纪一》",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷177",
+      "note": "公版古籍原文。政治与战事按史传整理；地理及后勤解释为项目分析，古兵力数字与精确路线不直接采用。"
+    },
+    {
+      "id": "ancient-shiji-68",
+      "title": "《史记·商君列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷068",
+      "note": "公版古籍原文；变法争论、农战与军功、县制及度量衡诸段。两次变法通常分别系于前356、前350年，非所有措施一次颁行。"
+    },
+    {
+      "id": "ancient-shiji-6",
+      "title": "《史记·秦始皇本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006",
+      "note": "公版古籍原文；秦王政二十六年灭齐、议帝号、郡县及统一制度诸段。"
+    },
+    {
+      "id": "ancient-shiji-8",
+      "title": "《史记·高祖本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷008",
+      "note": "公版古籍原文；汉五年即帝位、封诸侯、罢兵及入都关中诸段。"
+    },
+    {
+      "id": "ancient-shiji-123",
+      "title": "《史记·大宛列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷123",
+      "note": "公版古籍原文；张骞出使月氏、匈奴拘留及大宛、康居、大夏见闻诸段。前138年采用通行纪年。"
+    },
+    {
+      "id": "ancient-hanshu-99m",
+      "title": "《汉书·王莽传中》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷099中",
+      "note": "公版古籍原文；始建国元年改国号、官制及印绶，后续王田与币制改革诸段。"
+    },
+    {
+      "id": "med-tongjian-181",
+      "title": "《资治通鉴》卷181",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷181",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-189",
+      "title": "《资治通鉴》卷189",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷189",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-193",
+      "title": "《资治通鉴》卷193",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷193",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-201",
+      "title": "《资治通鉴》卷201",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷201",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-216",
+      "title": "《资治通鉴》卷216",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷216",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-218",
+      "title": "《资治通鉴》卷218",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷218",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-220",
+      "title": "《资治通鉴》卷220",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷220",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-223",
+      "title": "《资治通鉴》卷223",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷223",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-tongjian-254",
+      "title": "《资治通鉴》卷254",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷254",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-258",
+      "title": "《宋史》卷258",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷258",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-4",
+      "title": "《宋史》卷4",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷004",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-7",
+      "title": "《宋史》卷7",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷007",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-23",
+      "title": "《宋史》卷23",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷023",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-365",
+      "title": "《宋史》卷365",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷365",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-383",
+      "title": "《宋史》卷383",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷383",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-412",
+      "title": "《宋史》卷412",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷412",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-songshi-47",
+      "title": "《宋史》卷47",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷047",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-song-full-8",
+      "title": "《宋史全文》卷八上·庆历元年",
+      "url": "https://zh.wikisource.org/wiki/宋史全文_(四庫全書本)/卷08上",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-yuanshi-1",
+      "title": "《元史》卷1",
+      "url": "https://zh.wikisource.org/wiki/元史/卷001",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-yuanshi-3",
+      "title": "《元史》卷3",
+      "url": "https://zh.wikisource.org/wiki/元史/卷003",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-yuanshi-4",
+      "title": "《元史》卷4",
+      "url": "https://zh.wikisource.org/wiki/元史/卷004",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-yuanshi-115",
+      "title": "《元史》卷115",
+      "url": "https://zh.wikisource.org/wiki/元史/卷115",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-yuanshi-128",
+      "title": "《元史》卷128",
+      "url": "https://zh.wikisource.org/wiki/元史/卷128",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-yuanshi-156",
+      "title": "《元史》卷156",
+      "url": "https://zh.wikisource.org/wiki/元史/卷156",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-mingshi-125",
+      "title": "《明史》卷125·徐达传",
+      "url": "https://zh.wikisource.org/wiki/明史/卷125",
+      "note": "公版史籍相关纪事；文字为项目改写，古代兵数与褒贬不直接作为定论。"
+    },
+    {
+      "id": "med-jiangxi-31",
+      "title": "《江西通志》卷31·鄱阳湖战事",
+      "url": "https://zh.wikisource.org/wiki/江西通志_(四庫全書本)/卷031",
+      "note": "清代地方志汇录明初战事；用于事件顺序参考，不采纳神异叙事或未经校核的伤亡数字。"
+    },
+    {
+      "id": "med-dashiji-48",
+      "title": "《大事记续编》卷48·隋大业元年",
+      "url": "https://zh.wikisource.org/wiki/大事記續編_(四庫全書本)/卷48",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-tongjian-185",
+      "title": "《资治通鉴》卷185·唐高祖武德元年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷185",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-tongjian-226",
+      "title": "《资治通鉴》卷226·唐德宗建中元年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷226",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-tongjian-266",
+      "title": "《资治通鉴》卷266·唐梁政权更替",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷266",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-tongjian-280",
+      "title": "《资治通鉴》卷280·后晋建立与割地",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷280",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-songshi-1",
+      "title": "《宋史》卷1·太祖本纪",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷001",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-songshi-24",
+      "title": "《宋史》卷24·高宗建炎元年",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷024",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-songshi-29",
+      "title": "《宋史》卷29·绍兴十一年",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷029",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-songshi-30",
+      "title": "《宋史》卷30·绍兴十二年",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷030",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-yuanshi-7",
+      "title": "《元史》卷7·至元八年建国号",
+      "url": "https://zh.wikisource.org/wiki/元史/卷007",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-mingshi-2",
+      "title": "《明史》卷2·洪武元年",
+      "url": "https://zh.wikisource.org/wiki/明史/卷2",
+      "note": "公版史籍对应年代纪事；项目据此改写，政治和空间影响为结合纪事的解释，不等同于原书原句。"
+    },
+    {
+      "id": "med-tongjian-217",
+      "title": "《资治通鉴》卷217·安禄山起兵",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷217",
+      "note": "公版史籍天宝十四载相关纪事；政治与地理解释为项目综合分析。"
+    },
+    {
+      "id": "modern-tumu",
+      "title": "人民周刊：明长城宣府镇和土木之变",
+      "url": "https://paper.people.com.cn/rmzk/html/2024-08/26/content_26077479.htm",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-beijing",
+      "title": "北京社科普及：于谦与北京保卫战",
+      "url": "https://www.bjskpj.cn/beijing/25-history/18996-2023-11-21-09-00-39",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-sarhu",
+      "title": "故宫博物院：萨尔浒之战",
+      "url": "https://www.dpm.org.cn/lemmas/241392.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-ningyuan",
+      "title": "香港教育局：宁远之役——红夷大炮的威力",
+      "url": "https://www.edb.gov.hk/attachment/sc/curriculum-development/kla/pshe/references-and-resources/chinese-history/war6_sc.pdf",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-songjin",
+      "title": "故宫博物院：松锦之战",
+      "url": "https://www.dpm.org.cn/lemmas/241599.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-shanhai",
+      "title": "故宫博物院：清廷迁都北京",
+      "url": "https://www.dpm.org.cn/court/event/159873.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-taiwan",
+      "title": "中国文化研究院：郑成功驱荷之战",
+      "url": "https://chiculture.org.hk/sc/china-five-thousand-years/3986",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-penghu",
+      "title": "澎湖县政府：历史沿革·郑氏守备澎湖",
+      "url": "https://www.penghu.gov.tw/ch/home.jsp?id=10160",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-albazin",
+      "title": "吉林省地方志：吉林编年史1685年",
+      "url": "https://dfz.jl.gov.cn/zsjl/201712/t20171212_5216426.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-albazin2",
+      "title": "吉林省地方志：吉林编年史1686年",
+      "url": "https://dfz.jl.gov.cn/zsjl/201712/t20171218_5216427.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-zhenjiang",
+      "title": "故宫博物院：签订《南京条约》",
+      "url": "https://www.dpm.org.cn/court/event/157696.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-baliqiao",
+      "title": "北京文明网：通惠河——千年大运河之源",
+      "url": "https://bj.wenming.cn/chy/wmbb/201907/t20190704_5173974.shtml",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-tianjing",
+      "title": "南京市中山陵园管理局：天堡城遗址",
+      "url": "https://zschina.nanjing.gov.cn/lyzx/202606/t20260618_5862576.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-tianjing2",
+      "title": "历史事件辞典：天京保卫战",
+      "url": "https://m.cidianwang.com/lishi/shijian/5/315sj.htm",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-majiang",
+      "title": "福州市马尾区政府：马江海战炮台、烈士墓及昭忠祠",
+      "url": "https://www.mawei.gov.cn/xjwz/zwgk/zfxxgkzdgz/ggtywh/whycbh/202105/t20210506_4091931.htm",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-huanghai",
+      "title": "威海市政府：珍贵史料解读日方版本的甲午战争",
+      "url": "https://www.weihai.gov.cn/art/2019/12/25/art_58903_3536303.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-weihai",
+      "title": "中国文化研究院：新式海军对决",
+      "url": "https://chiculture.org.hk/sc/photo-story/154",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-wuchang",
+      "title": "中国国家博物馆：武昌起义",
+      "url": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201214_248424.shtml",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-tingsi",
+      "title": "人民网党史频道：汀泗桥战役始末及真相",
+      "url": "https://dangshi.people.com.cn/n/2014/0930/c85037-25766379.html",
+      "note": "史实依据；地形、补给与政治的关联说明为本项目综合解释，点位为近似定位。"
+    },
+    {
+      "id": "modern-treaty-nerchinsk",
+      "title": "《尼布楚条约》汉文界碑（清圣祖实录所载）",
+      "url": "https://zh.wikisource.org/wiki/尼布楚條約",
+      "note": "公有领域原始文献；条约文本不能直接代替现代GIS边界。"
+    },
+    {
+      "id": "modern-treaty-nanjing",
+      "title": "《南京条约》原文",
+      "url": "https://zh.wikisource.org/wiki/南京條約",
+      "note": "公有领域条约原文；不把后续条约新增权利混入本约。"
+    },
+    {
+      "id": "modern-xinjiang",
+      "title": "新疆政务服务网：历史与建省",
+      "url": "https://zwfw.xinjiang.gov.cn/dmxj.html",
+      "note": "节点依据与延伸阅读；空间关系为本项目教学分析。"
+    },
+    {
+      "id": "modern-shimonoseki",
+      "title": "外交部：《马关条约》第二款",
+      "url": "https://www.fmprc.gov.cn/diaoyudao/chn/flfg/gjty/201510/t20151009_8560614.htm",
+      "note": "1895年条约节录，原始外交文献；辽东后续交涉另有变化。"
+    },
+    {
+      "id": "modern-republic",
+      "title": "中国国家博物馆：临时政府与陆军官制",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202104/t20210406_249552.shtml",
+      "note": "节点依据与延伸阅读；空间关系为本项目教学分析。"
+    },
+    {
+      "id": "modern-republic2",
+      "title": "中国国家博物馆：中华民国临时参议院",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_25821.shtml",
+      "note": "节点依据与延伸阅读；空间关系为本项目教学分析。"
+    },
+    {
+      "id": "modern-cooperation",
+      "title": "中国共产党新闻网：第一次国共合作正式形成",
+      "url": "https://cpc.people.com.cn/GB/33837/2533832.html",
+      "note": "节点依据与延伸阅读；空间关系为本项目教学分析。"
+    },
+    {
+      "id": "survey-lu-qin",
+      "title": "吕思勉《吕著中国通史》第二十三章：春秋战国的竞争和秦国的统一",
+      "url": "https://szzy.7lue.cn/read/40cc93f2ae454ff0e51070b346bfb9ea/62709f47d962040d431b71b052d57f8e.md",
+      "note": "选读：统一并非秦从始至终最强的必然结果，改革、各国组织和联盟变化需一并观察。旧著的民族观与价值判断不能直接沿用。"
+    },
+    {
+      "id": "survey-lu-tang",
+      "title": "吕思勉《吕著中国通史》第三十九章：唐朝的中衰",
+      "url": "https://szzy.7lue.cn/read/40cc93f2ae454ff0e51070b346bfb9ea/837484fc73c80322062e9c70b413d2f3.md",
+      "note": "选读：从边疆军事组织与中央权力关系理解安史之乱，避免仅用个人品行解释政治转折。"
+    },
+    {
+      "id": "survey-bai-feishui",
+      "title": "白寿彝主编《中国通史》第五卷：前秦的南征、淝水之战",
+      "url": "https://szzy.7lue.cn/read/dbcfcd4e6bd9523b6fb82ccb7aeca509/f5918efce83b353b7b8c729ae07431e7.md",
+      "note": "选读：前秦内部整合、东晋政治协作与北府兵组织。史书所记兵力不作为精确统计展示。"
+    },
+    {
+      "id": "survey-atlas",
+      "title": "谭其骧与《中国历史地图集》· 复旦大学介绍",
+      "url": "https://news.fudan.edu.cn/2021/0524/c1247a108976/page.htm",
+      "note": "后续校勘书目。未扫描或再分发该地图集，也未据此新增精确边界。"
+    }
+  ],
+  "bibliography": [
+    {
+      "id": "survey-lu-qin",
+      "title": "吕思勉《吕著中国通史》第二十三章：春秋战国的竞争和秦国的统一",
+      "url": "https://szzy.7lue.cn/read/40cc93f2ae454ff0e51070b346bfb9ea/62709f47d962040d431b71b052d57f8e.md",
+      "note": "选读：统一并非秦从始至终最强的必然结果，改革、各国组织和联盟变化需一并观察。旧著的民族观与价值判断不能直接沿用。"
+    },
+    {
+      "id": "survey-lu-tang",
+      "title": "吕思勉《吕著中国通史》第三十九章：唐朝的中衰",
+      "url": "https://szzy.7lue.cn/read/40cc93f2ae454ff0e51070b346bfb9ea/837484fc73c80322062e9c70b413d2f3.md",
+      "note": "选读：从边疆军事组织与中央权力关系理解安史之乱，避免仅用个人品行解释政治转折。"
+    },
+    {
+      "id": "survey-bai-feishui",
+      "title": "白寿彝主编《中国通史》第五卷：前秦的南征、淝水之战",
+      "url": "https://szzy.7lue.cn/read/dbcfcd4e6bd9523b6fb82ccb7aeca509/f5918efce83b353b7b8c729ae07431e7.md",
+      "note": "选读：前秦内部整合、东晋政治协作与北府兵组织。史书所记兵力不作为精确统计展示。"
+    },
+    {
+      "id": "survey-atlas",
+      "title": "谭其骧与《中国历史地图集》· 复旦大学介绍",
+      "url": "https://news.fudan.edu.cn/2021/0524/c1247a108976/page.htm",
+      "note": "后续校勘书目。未扫描或再分发该地图集，也未据此新增精确边界。"
+    }
+  ],
+  "themes": [
+    {
+      "id": "qin",
+      "name": "秦为何能统一？",
+      "question": "变法、上党与多国联盟怎样改变力量对比？",
+      "description": "从晋阳与魏国的优势开始，再看秦在伊阙、长平之后的进展与邯郸受挫。统一需要观察国家动员、各国合作与长期消耗。",
+      "ids": [
+        "ancient-jinyang",
+        "moment-shangyang-reform",
+        "ancient-yique",
+        "battle-4",
+        "ancient-handan",
+        "moment-qin-unification"
+      ]
+    },
+    {
+      "id": "chu-han",
+      "name": "楚汉之间的粮道与联盟",
+      "question": "为什么占领都城，并不等于赢得天下？",
+      "description": "巨鹿之后的军事威望、荥阳成皋的运输争夺、河北与齐地的侧翼战事，共同塑造最后的垓下决战。",
+      "ids": [
+        "battle-5",
+        "ancient-pengcheng",
+        "ancient-chenggao",
+        "ancient-jingxing",
+        "ancient-weishui",
+        "battle-6"
+      ]
+    },
+    {
+      "id": "three-kingdoms",
+      "name": "三国：荆州与汉中",
+      "question": "一条长江，如何同时连接联盟与冲突？",
+      "description": "串读官渡到夷陵，再看街亭和魏灭蜀。注意孙刘之间的合作与竞争，以及秦岭通道对北伐补给的约束。",
+      "ids": [
+        "battle-9",
+        "battle-10",
+        "battle-11",
+        "ancient-xiangfan",
+        "battle-12",
+        "ancient-jieting",
+        "battle-13"
+      ]
+    },
+    {
+      "id": "north-south",
+      "name": "长江之前，还有淮河",
+      "question": "南北统一为何需要多条战线配合？",
+      "description": "从晋灭吴、淝水到隋灭陈，比较上游根据地、淮河屏障与江面运输。江南的政治组织和财政同样重要。",
+      "ids": [
+        "battle-14",
+        "battle-15",
+        "battle-16"
+      ]
+    },
+    {
+      "id": "tang",
+      "name": "唐帝国的边疆与中枢",
+      "question": "边军为何从守边力量变成朝廷危机？",
+      "description": "把中亚、青海与河北战场放在同一张图上；怛罗斯不能单独解释唐退出中亚，安史之乱和吐蕃扩张须共同观察。",
+      "ids": [
+        "battle-eastern-turk",
+        "battle-dafeichuan",
+        "battle-18",
+        "moment-an-lushan-revolt",
+        "battle-19",
+        "battle-suiyang",
+        "battle-xiangjisi",
+        "moment-two-tax-law"
+      ]
+    },
+    {
+      "id": "song-yuan",
+      "name": "宋辽金元：关隘、河流与和议",
+      "question": "战场胜利如何转化为和局，或新的进攻通道？",
+      "description": "对照澶州、靖康、郾城、采石、钓鱼城、襄樊与崖山，观察政治目标、海陆运输与城防体系如何相互作用。",
+      "ids": [
+        "battle-20",
+        "moment-chanyuan-peace",
+        "battle-21",
+        "battle-22",
+        "moment-shaoxing-peace",
+        "battle-23",
+        "battle-24",
+        "battle-25",
+        "battle-26"
+      ]
+    },
+    {
+      "id": "liaoxi",
+      "name": "辽西走廊与明清易代",
+      "question": "坚城为什么无法独自挽救一个政权？",
+      "description": "从萨尔浒的分进合击到宁远、松锦和山海关，结合财政压力、关内局势与吴三桂的政治选择。",
+      "ids": [
+        "sarhu",
+        "battle-29",
+        "songjin",
+        "battle-30"
+      ]
+    },
+    {
+      "id": "modern",
+      "name": "晚清至北伐的交通网络",
+      "question": "港口、运河与铁路，怎样重塑战争空间？",
+      "description": "从镇江漕运、黄海海战到武昌起义与北伐，比较港口、内河和铁路节点如何连接战场与政治变化。",
+      "ids": [
+        "battle-32",
+        "battle-33",
+        "wuchang",
+        "tingsi"
+      ]
+    }
+  ]
+}

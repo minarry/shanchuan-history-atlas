@@ -1,0 +1,35 @@
+/* Soft source-derived relief, paired with distinct landform symbols. */
+.leaflet-container{background:#ccdcd9}
+.terrain-raster{transition:filter .25s ease}
+[data-relief="soft"] .terrain-raster{filter:contrast(.77)brightness(1.08)saturate(.75)}
+[data-relief="strong"] .terrain-raster{filter:contrast(1.16)saturate(1.08)}
+.landmark-marker{border:0;background:none}
+.landmark-label{display:inline-flex;align-items:center;justify-content:center;gap:5px;width:100%;height:100%;white-space:nowrap;font-family:var(--serif);font-weight:650;text-shadow:0 1px 2px #fff9e8,0 -1px 2px #fff9e8,1px 0 2px #fff9e8,-1px 0 2px #fff9e8;cursor:pointer;border-radius:4px}
+.landmark-label .landmark-symbol{font-family:Georgia,serif;font-size:16px;letter-spacing:0;line-height:1}
+.landmark-label.mountain{font-size:16px;letter-spacing:3px;color:#695136}
+.landmark-label.plateau{font-size:15px;letter-spacing:3px;color:#836244}
+.landmark-label.plain{font-size:13px;letter-spacing:2px;color:#2f7155;background:#e7efcf9c;border-bottom:2px solid #6f9b7099}
+.landmark-label.basin{font-size:13px;letter-spacing:2px;color:#597447;background:#ecedd4a6;border-bottom:2px solid #8e9f5f99;border-radius:5px 5px 10px 10px}
+.landmark-label.river{font-size:13px;letter-spacing:2px;font-style:italic;color:#216b94}
+.landmark-label.corridor{font-size:12px;letter-spacing:1px;color:#97612e}
+.landmark-label.pass{font-family:var(--sans);font-size:11px;font-weight:600;color:#963f29;background:#fff7e9e8;border:1px solid #b46f47;box-shadow:0 1px 4px #50351a30;padding:0 5px}
+.landmark-label.pass svg{width:15px;height:18px;flex:none;fill:#b76940;stroke:#7d3f29;stroke-width:1.2}
+.landmark-marker:hover .landmark-label,.landmark-marker:focus-visible .landmark-label{background:#fff8df;outline:2px solid #a57542;outline-offset:2px}
+#terrainFocusBtn[aria-pressed="true"]{background:#365c4d;color:#fff7df;border-color:#365c4d}
+.terrain-focus .polity-label{font-size:16px;opacity:.58}
+.terrain-focus .admin-label{opacity:.4}
+.relief-control{border-top:1px solid var(--line);margin-top:10px;padding-top:12px}
+.layers-panel .relief-control>label{display:flex;align-items:center;justify-content:space-between;padding:0;margin:0;font-size:11px}
+.relief-control select{font:inherit;color:var(--ink);padding:5px 8px;border:1px solid #c9d0bc;background:#fffaf0;border-radius:4px}
+.relief-control p{font-size:10px;line-height:1.7;color:#7e8670;margin:7px 0 2px}
+.terrain-legend{border-top:1px solid #d7deca;margin-top:10px;padding-top:9px}
+.terrain-legend summary{cursor:pointer;font-size:10px;color:#62725d}
+.terrain-legend-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px 9px;margin-top:8px;font-size:10px;white-space:nowrap}
+.terrain-legend-grid i{font-style:normal;margin-right:3px;color:#755735}
+.terrain-legend-grid .water{color:#317f9b}.terrain-legend-grid .flat{color:#3f7959}.terrain-legend-grid .pass{color:#a34d30}
+.terrain-legend p{max-width:215px;font-size:9px;line-height:1.6;color:#7f8875;margin:8px 0 0}
+.legend-collapsed .terrain-legend{display:none}
+@media(max-width:760px){#terrainFocusBtn{padding:0 8px}.landmark-label.mountain{font-size:15px}.terrain-legend-grid{gap:6px}.layers-panel{max-height:calc(100dvh - 230px);overflow:auto;overscroll-behavior:contain}}
+@media(prefers-reduced-motion:reduce){.terrain-raster{transition:none}}
+
+@media(max-width:760px){body:not(.presenting) .map-tools{left:110px;right:10px;flex-wrap:wrap;justify-content:flex-end;max-width:calc(100% - 120px)}body:not(.presenting) #terrainFocusBtn{font-size:10px;padding:7px 6px}body:not(.presenting) .map-context{top:92px}body:not(.presenting) .map-right-tools{top:92px}body:not(.presenting) .search-box{top:90px}.layers-panel{position:fixed;left:10px;right:auto;top:96px;width:260px;max-width:calc(100vw - 20px);max-height:calc(100dvh - 220px)}}

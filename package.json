@@ -1,0 +1,15 @@
+{
+  "name": "shanchuan-history-atlas",
+  "private": true,
+  "version": "3.4.0",
+  "type": "module",
+  "description": "A layered Chinese historical atlas with offline terrain and timeline playback",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build:content": "node scripts/build-research.mjs",
+    "check": "node --check dist/terrain-style.js && node --check dist/history-domain.js && node --check dist/butian.js && node --check dist/app.js && node --check dist/timeline-ui.js && node --check dist/timeline-periods.js && node --check dist/tour-player.js && node --check dist/tour-script.js && node scripts/validate-data.mjs && node scripts/validate-research.mjs && node --test scripts/timeline.test.mjs scripts/tour.test.mjs scripts/terrain.test.mjs scripts/butian.test.mjs",
+    "build:butian": "python3 scripts/build-butian.py"
+  },
+  "license": "GPL-3.0"
+}
