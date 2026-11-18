@@ -1,0 +1,1250 @@
+{
+  "sources": [
+    {
+      "id": "shiji6",
+      "title": "《史记》卷六 · 秦始皇本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006"
+    },
+    {
+      "id": "shiji15",
+      "title": "《史记》卷十五 · 六国年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷015"
+    },
+    {
+      "id": "sanguo28",
+      "title": "《三国志》卷二十八 · 邓艾、钟会传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷28"
+    },
+    {
+      "id": "sanguo33",
+      "title": "《三国志》卷三十三 · 后主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷33"
+    },
+    {
+      "id": "jin3",
+      "title": "《晋书》卷三 · 武帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷003"
+    },
+    {
+      "id": "jin34",
+      "title": "《晋书》卷三十四 · 杜预传",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷034"
+    },
+    {
+      "id": "jin42",
+      "title": "《晋书》卷四十二 · 王濬传",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷042"
+    },
+    {
+      "id": "jian156",
+      "title": "《资治通鉴》卷一五六 · 梁纪",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷156"
+    },
+    {
+      "id": "jian157",
+      "title": "《资治通鉴》卷一五七 · 梁纪",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷157"
+    },
+    {
+      "id": "song1",
+      "title": "《宋史》卷一 · 太祖本纪",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷001"
+    },
+    {
+      "id": "song2",
+      "title": "《宋史》卷二 · 太祖本纪",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷002"
+    },
+    {
+      "id": "song3",
+      "title": "《宋史》卷三 · 太祖本纪",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷003"
+    },
+    {
+      "id": "song4",
+      "title": "《宋史》卷四 · 太宗本纪",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷004"
+    },
+    {
+      "id": "sanguo8",
+      "title": "《三国志》卷八 · 公孙度传附公孙渊",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷08"
+    },
+    {
+      "id": "sanguo47",
+      "title": "《三国志》卷四十七 · 吴主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷47"
+    },
+    {
+      "id": "sanguo58",
+      "title": "《三国志》卷五十八 · 陆逊传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷58"
+    },
+    {
+      "id": "jin1",
+      "title": "《晋书》卷一 · 宣帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷001"
+    },
+    {
+      "id": "sanguo35",
+      "title": "《三国志》卷三十五 · 诸葛亮传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷35"
+    },
+    {
+      "id": "song46",
+      "title": "《宋史》卷四十六 · 度宗本纪（咸淳九年）",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷046"
+    },
+    {
+      "id": "song47",
+      "title": "《宋史》卷四十七 · 瀛国公、二王附",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷047"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "qin",
+      "title": "秦并六国",
+      "startYear": -231,
+      "endYear": -221,
+      "baseYear": -242,
+      "description": "以七国末期的概略范围追踪归属。代地和辽东另列，保留亡国与残余势力灭亡之间的时间差。楚地着色指王权归属，江南仍在陆续接收。",
+      "sourceIds": [
+        "shiji6",
+        "shiji15"
+      ],
+      "steps": [
+        {
+          "id": "qin-before",
+          "year": -231,
+          "date": "前231年",
+          "title": "兼并前的七国",
+          "kind": "起点",
+          "summary": "秦据关中，势力已越出函谷关。地图从六国最后十年的相对位置读起。",
+          "sourceIds": [
+            "shiji6"
+          ],
+          "point": null,
+          "eventIds": [],
+          "transfers": []
+        },
+        {
+          "id": "xinzheng",
+          "year": -230,
+          "date": "前230年",
+          "title": "秦灭韩，置颍川郡",
+          "kind": "兼并",
+          "summary": "内史腾攻韩，韩王安被俘。原韩国核心区域转入秦的郡县体系。",
+          "sourceIds": [
+            "shiji6"
+          ],
+          "point": [
+            113.74,
+            34.4
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "韩",
+              "秦"
+            ]
+          ],
+          "pointName": "新郑"
+        },
+        {
+          "id": "handan",
+          "year": -228,
+          "date": "前228年",
+          "title": "邯郸陷落，赵余部立代",
+          "kind": "分裂",
+          "summary": "秦俘赵王迁。赵公子嘉北走代地自立，旧赵领土分属秦、代。",
+          "sourceIds": [
+            "shiji6"
+          ],
+          "point": [
+            114.5,
+            36.6
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "赵地中南部",
+              "秦"
+            ],
+            [
+              "代地",
+              "代"
+            ]
+          ],
+          "pointName": "邯郸"
+        },
+        {
+          "id": "ji",
+          "year": -226,
+          "date": "前226年",
+          "title": "秦取蓟，燕退辽东",
+          "kind": "收缩",
+          "summary": "蓟城失守后，燕王喜退往辽东。原燕国西部转归秦，辽东仍由燕王统辖。",
+          "sourceIds": [
+            "shiji6"
+          ],
+          "point": [
+            116.35,
+            39.89
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "燕地西部",
+              "秦"
+            ]
+          ],
+          "pointName": "蓟"
+        },
+        {
+          "id": "daliang",
+          "year": -225,
+          "date": "前225年",
+          "title": "大梁失守，魏降秦",
+          "kind": "兼并",
+          "summary": "水攻破坏大梁城防，魏王降秦，魏旧域转归秦。",
+          "sourceIds": [
+            "shiji6"
+          ],
+          "point": [
+            114.35,
+            34.8
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "魏",
+              "秦"
+            ]
+          ],
+          "pointName": "大梁"
+        },
+        {
+          "id": "chu",
+          "year": -223,
+          "date": "前223年",
+          "title": "楚王权覆亡",
+          "kind": "兼并",
+          "summary": "秦军击败楚军，昌平君死。地图转记楚旧域的政治归属，长江以南的接收仍持续到次年。",
+          "sourceIds": [
+            "shiji6",
+            "shiji15"
+          ],
+          "point": null,
+          "eventIds": [],
+          "transfers": [
+            [
+              "楚",
+              "秦"
+            ]
+          ]
+        },
+        {
+          "id": "liaodong",
+          "year": -222,
+          "date": "前222年 · 先",
+          "title": "燕王喜被俘",
+          "kind": "兼并",
+          "summary": "王贲进军辽东，燕的最后统治区转归秦。点位缺乏把握，此阶段以辽东区域定位。",
+          "sourceIds": [
+            "shiji6",
+            "shiji15"
+          ],
+          "point": null,
+          "eventIds": [],
+          "transfers": [
+            [
+              "辽东燕地",
+              "秦"
+            ]
+          ]
+        },
+        {
+          "id": "dai",
+          "year": -222,
+          "date": "前222年 · 后",
+          "title": "秦俘代王嘉",
+          "kind": "兼并",
+          "summary": "王贲回师攻代，赵王族在北方维持的政权结束。",
+          "sourceIds": [
+            "shiji6",
+            "shiji15"
+          ],
+          "point": [
+            114.57,
+            39.84
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "代地",
+              "秦"
+            ]
+          ],
+          "pointName": "代"
+        },
+        {
+          "id": "linzi",
+          "year": -221,
+          "date": "前221年",
+          "title": "齐降秦，六国兼并完成",
+          "kind": "统一",
+          "summary": "秦军从原燕地南下，齐王建降。秦王随后称皇帝，将六国旧地纳入同一王朝。",
+          "sourceIds": [
+            "shiji6"
+          ],
+          "point": [
+            118.34,
+            36.84
+          ],
+          "eventIds": [
+            "moment-qin-unification"
+          ],
+          "transfers": [
+            [
+              "齐",
+              "秦"
+            ]
+          ],
+          "pointName": "临淄"
+        }
+      ],
+      "partitions": [
+        {
+          "owner": "赵",
+          "children": [
+            {
+              "parcel": "代地",
+              "year": -228,
+              "name": "代"
+            }
+          ],
+          "remainder": "赵地中南部"
+        },
+        {
+          "owner": "燕",
+          "children": [
+            {
+              "parcel": "辽东燕地",
+              "year": -226,
+              "name": "燕"
+            }
+          ],
+          "remainder": "燕地西部"
+        }
+      ],
+      "colors": {
+        "代": "#97565e"
+      }
+    },
+    {
+      "id": "three-kingdoms",
+      "title": "从魏蜀吴到晋",
+      "startYear": 222,
+      "endYear": 280,
+      "baseYear": 222,
+      "description": "从夷陵之战到建业受降，辽东、蜀地与吴地依次转属。地图追踪大区域统属；城池争夺和进军只在有记载的地点落点，武都、阴平及交趾等边郡的反复暂未重画。",
+      "sourceIds": [
+        "sanguo28",
+        "sanguo33",
+        "jin3",
+        "jin34",
+        "jin42",
+        "sanguo8",
+        "sanguo47",
+        "sanguo58",
+        "jin1",
+        "sanguo35"
+      ],
+      "steps": [
+        {
+          "id": "three-before",
+          "year": 222,
+          "date": "222年 · 夷陵战前",
+          "title": "魏、蜀汉、吴与辽东",
+          "kind": "起点",
+          "summary": "刘备已从夔门东下，孙权控制荆州中下游，曹魏据北方。辽东由公孙氏实际控制，仍接受魏的封授。",
+          "sourceIds": [
+            "sanguo8",
+            "sanguo47",
+            "sanguo58"
+          ],
+          "point": null,
+          "transfers": [],
+          "eventIds": []
+        },
+        {
+          "id": "yiling",
+          "year": 222,
+          "date": "222年 · 夏",
+          "title": "夷陵之战，刘备退回蜀地",
+          "kind": "据点",
+          "summary": "陆逊在夷陵、猇亭一带击败蜀军，刘备退守白帝城。吴守住荆州的长江通道，未因此取得整个益州。",
+          "sourceIds": [
+            "sanguo58"
+          ],
+          "point": [
+            111.45,
+            30.54
+          ],
+          "transfers": [],
+          "eventIds": [
+            "battle-12"
+          ],
+          "pointName": "猇亭"
+        },
+        {
+          "id": "jieting",
+          "year": 228,
+          "date": "228年 · 春",
+          "title": "街亭失守，蜀军退回汉中",
+          "kind": "据点",
+          "summary": "诸葛亮北伐时陇右数郡曾响应蜀汉。马谡败于街亭后，蜀军撤退。战区暂时响应与长期领属有别。街亭点位取秦安一带的概略位置。",
+          "sourceIds": [
+            "sanguo35"
+          ],
+          "point": [
+            105.92,
+            35
+          ],
+          "transfers": [],
+          "eventIds": [
+            "ancient-jieting"
+          ],
+          "pointName": "街亭附近"
+        },
+        {
+          "id": "wuchang",
+          "year": 229,
+          "date": "229年 · 四月（史籍纪月）",
+          "title": "孙权在武昌称帝",
+          "kind": "称帝",
+          "summary": "孙权在武昌即帝位，蜀汉遣使祝贺。吴、蜀盟约中约定的未来分地没有改变魏在北方的实际控制。",
+          "sourceIds": [
+            "sanguo47"
+          ],
+          "point": [
+            114.89,
+            30.4
+          ],
+          "transfers": [],
+          "eventIds": [],
+          "pointName": "武昌"
+        },
+        {
+          "id": "yan",
+          "year": 237,
+          "date": "237年",
+          "title": "公孙渊自立燕王",
+          "kind": "自立",
+          "summary": "公孙渊与魏决裂，自立燕王，置百官。此前孙吴一度遣使册封，不能据此把辽东画作吴地。",
+          "sourceIds": [
+            "sanguo8",
+            "jin1"
+          ],
+          "point": [
+            123.17,
+            41.27
+          ],
+          "transfers": [
+            [
+              "燕（公孙氏辽东）",
+              "燕（公孙氏）"
+            ]
+          ],
+          "eventIds": [],
+          "pointName": "襄平"
+        },
+        {
+          "id": "xiangping",
+          "year": 238,
+          "date": "238年 · 八月（史籍纪月）",
+          "title": "襄平陷落，辽东归魏",
+          "kind": "兼并",
+          "summary": "司马懿围襄平，公孙渊出逃被杀。魏接收辽东诸郡，图上只改着此前公孙氏控制的区域。",
+          "sourceIds": [
+            "sanguo8",
+            "jin1"
+          ],
+          "point": [
+            123.17,
+            41.27
+          ],
+          "transfers": [
+            [
+              "燕（公孙氏辽东）",
+              "魏"
+            ]
+          ],
+          "eventIds": [],
+          "pointName": "襄平"
+        },
+        {
+          "id": "gaoping",
+          "year": 249,
+          "date": "249年 · 正月（史籍纪月）",
+          "title": "高平陵事变，司马氏掌权",
+          "kind": "政变",
+          "summary": "曹爽随魏帝出洛阳谒高平陵时，司马懿在京师发动政变，控制中枢。国号仍为魏，皇位转移要到司马炎受禅。",
+          "sourceIds": [
+            "jin1"
+          ],
+          "point": [
+            112.65,
+            34.74
+          ],
+          "transfers": [],
+          "eventIds": [],
+          "pointName": "洛阳"
+        },
+        {
+          "id": "jiange",
+          "year": 263,
+          "date": "263年 · 秋",
+          "title": "钟会入汉中，姜维守剑阁",
+          "kind": "据点",
+          "summary": "魏军进入汉中，姜维据剑阁挡住钟会。蜀汉朝廷仍在成都。",
+          "sourceIds": [
+            "sanguo28"
+          ],
+          "point": [
+            105.57,
+            32.21
+          ],
+          "eventIds": [
+            "battle-13"
+          ],
+          "transfers": [],
+          "pointName": "剑阁"
+        },
+        {
+          "id": "mianzhu",
+          "year": 263,
+          "date": "263年 · 冬",
+          "title": "绵竹失守",
+          "kind": "据点",
+          "summary": "邓艾由阴平绕至江油，继而在绵竹击败诸葛瞻。成都以北的防线瓦解。点位标古绵竹附近。",
+          "sourceIds": [
+            "sanguo28"
+          ],
+          "point": [
+            104.4,
+            31.14
+          ],
+          "eventIds": [
+            "battle-13"
+          ],
+          "transfers": [],
+          "pointName": "古绵竹"
+        },
+        {
+          "id": "chengdu",
+          "year": 263,
+          "date": "263年 · 冬",
+          "title": "刘禅降魏",
+          "kind": "兼并",
+          "summary": "刘禅向邓艾奉降，蜀汉王朝结束。蜀地改按受降后的魏统属表示，旧境各处的实际接收有先后。",
+          "sourceIds": [
+            "sanguo28",
+            "sanguo33"
+          ],
+          "point": [
+            104.07,
+            30.66
+          ],
+          "eventIds": [
+            "battle-13"
+          ],
+          "transfers": [
+            [
+              "蜀汉",
+              "魏"
+            ]
+          ],
+          "pointName": "成都"
+        },
+        {
+          "id": "jin",
+          "year": 266,
+          "date": "泰始元年十二月 · 公历266年初",
+          "title": "司马炎受禅，晋代魏",
+          "kind": "更替",
+          "summary": "曹奂禅位，司马炎即皇帝位。原版图切片从265年起标晋，沿用传统年表；此处按公历折算为266年初。魏境更名为晋，江东仍属吴。",
+          "sourceIds": [
+            "jin3"
+          ],
+          "point": [
+            112.65,
+            34.74
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "魏",
+              "晋"
+            ],
+            [
+              "蜀汉",
+              "晋"
+            ],
+            [
+              "燕（公孙氏辽东）",
+              "晋"
+            ]
+          ],
+          "pointName": "洛阳"
+        },
+        {
+          "id": "jin-musters",
+          "year": 279,
+          "date": "279年 · 冬",
+          "title": "晋分路伐吴",
+          "kind": "据点",
+          "summary": "晋廷在洛阳下令大举伐吴，部署益州水军及荆州、沿江北岸诸军。此时吴仍控制都城建业。",
+          "sourceIds": [
+            "jin3",
+            "jin42"
+          ],
+          "point": [
+            112.65,
+            34.74
+          ],
+          "eventIds": [
+            "battle-14"
+          ],
+          "transfers": [],
+          "pointName": "洛阳"
+        },
+        {
+          "id": "jiangling",
+          "year": 280,
+          "date": "280年 · 春",
+          "title": "江陵失守",
+          "kind": "据点",
+          "summary": "杜预军克江陵，吴在长江中游的军政枢纽失守。江东朝廷仍在，因此只标记城池变化。",
+          "sourceIds": [
+            "jin34",
+            "jin3"
+          ],
+          "point": [
+            112.19,
+            30.35
+          ],
+          "eventIds": [
+            "battle-14"
+          ],
+          "transfers": [],
+          "pointName": "江陵"
+        },
+        {
+          "id": "jianye",
+          "year": 280,
+          "date": "280年 · 春",
+          "title": "孙皓在建业降晋",
+          "kind": "统一",
+          "summary": "晋水军抵达建业，孙皓投降。吴作为独立王朝结束，其旧辖区域按改隶晋的结果着色。",
+          "sourceIds": [
+            "jin3",
+            "jin42"
+          ],
+          "point": [
+            118.8,
+            32.06
+          ],
+          "eventIds": [
+            "battle-14"
+          ],
+          "transfers": [
+            [
+              "吴",
+              "晋"
+            ]
+          ],
+          "pointName": "建业"
+        }
+      ],
+      "colors": {
+        "晋": "#a0683f",
+        "辽东公孙氏": "#7a528a",
+        "燕（公孙氏）": "#894e76"
+      },
+      "initialOwners": {
+        "燕（公孙氏辽东）": "辽东公孙氏"
+      }
+    },
+    {
+      "id": "wei-split",
+      "title": "北魏分为东西",
+      "startYear": 533,
+      "endYear": 535,
+      "baseYear": 534,
+      "description": "用534年来源切片中可追踪的东西两部分，回看共同的北魏名义，再依次标出政权分立。两方在河洛的实际控制多次反复，边线取概略。",
+      "sourceIds": [
+        "jian156",
+        "jian157"
+      ],
+      "steps": [
+        {
+          "id": "wei-before",
+          "year": 533,
+          "date": "533年",
+          "title": "北魏仍奉一帝",
+          "kind": "起点",
+          "summary": "北魏仍有共同皇帝，军事权力已集中在不同区域集团手中。图中合示其后可以追踪的东西两部。",
+          "sourceIds": [
+            "jian156"
+          ],
+          "point": null,
+          "eventIds": [],
+          "transfers": []
+        },
+        {
+          "id": "chang-an",
+          "year": 534,
+          "date": "534年 · 七月（史籍纪月）",
+          "title": "孝武帝西入关中",
+          "kind": "据点",
+          "summary": "孝武帝离开洛阳，投向掌握关中兵力的宇文泰。皇帝西行是朝廷分裂的开端。",
+          "sourceIds": [
+            "jian156"
+          ],
+          "point": [
+            108.89,
+            34.27
+          ],
+          "eventIds": [
+            "expand-wei-split"
+          ],
+          "transfers": [],
+          "pointName": "长安"
+        },
+        {
+          "id": "ye",
+          "year": 534,
+          "date": "534年 · 十月（史籍纪月）",
+          "title": "高欢另立孝静帝，东魏立",
+          "kind": "分裂",
+          "summary": "高欢拥立元善见，随后迁都邺城。关中另有朝廷，此时西魏文帝尚未即位。",
+          "sourceIds": [
+            "jian156"
+          ],
+          "point": [
+            114.41,
+            36.28
+          ],
+          "eventIds": [
+            "expand-wei-split"
+          ],
+          "transfers": [
+            [
+              "东魏",
+              "东魏"
+            ],
+            [
+              "西魏",
+              "关中魏廷"
+            ]
+          ],
+          "pointName": "邺城"
+        },
+        {
+          "id": "xiwei",
+          "year": 535,
+          "date": "535年 · 正月（史籍纪月）",
+          "title": "元宝炬即位，西魏立",
+          "kind": "更替",
+          "summary": "宇文泰在长安拥立元宝炬。关中魏廷转称西魏，东西两方各有皇帝。",
+          "sourceIds": [
+            "jian157"
+          ],
+          "point": [
+            108.89,
+            34.27
+          ],
+          "eventIds": [
+            "expand-wei-split"
+          ],
+          "transfers": [
+            [
+              "西魏",
+              "西魏"
+            ]
+          ],
+          "pointName": "长安"
+        }
+      ],
+      "initialOwners": {
+        "东魏": "北魏",
+        "西魏": "北魏"
+      },
+      "colors": {
+        "北魏": "#665687",
+        "东魏": "#8b6283",
+        "关中魏廷": "#9d7151"
+      }
+    },
+    {
+      "id": "song",
+      "title": "北宋收取诸国",
+      "startYear": 960,
+      "endYear": 979,
+      "baseYear": 960,
+      "description": "按受降、归附与围城的先后回看宋境扩大。清源军为宋初称谓，末期已改名平海军。辽及西北诸势力同时存在。",
+      "sourceIds": [
+        "song1",
+        "song2",
+        "song3",
+        "song4"
+      ],
+      "steps": [
+        {
+          "id": "song-before",
+          "year": 960,
+          "date": "960年",
+          "title": "陈桥兵变，宋承后周",
+          "kind": "起点",
+          "summary": "赵匡胤在开封即位。地图从宋初的中原政权出发，南方诸国和北汉各自为政。",
+          "sourceIds": [
+            "song1"
+          ],
+          "point": [
+            114.31,
+            34.8
+          ],
+          "eventIds": [
+            "moment-song-founded"
+          ],
+          "transfers": [],
+          "pointName": "开封"
+        },
+        {
+          "id": "jingnan",
+          "year": 963,
+          "date": "963年 · 二月（史籍纪月）",
+          "title": "高继冲献荆南",
+          "kind": "归附",
+          "summary": "宋军经荆南赴湖南，高继冲向宋交出辖境，江陵成为宋向南经营的支点。",
+          "sourceIds": [
+            "song1"
+          ],
+          "point": [
+            112.19,
+            30.35
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "荆南（南平）",
+              "宋"
+            ]
+          ],
+          "pointName": "江陵"
+        },
+        {
+          "id": "hunan",
+          "year": 963,
+          "date": "963年 · 三月（史籍纪月）",
+          "title": "宋军平湖南",
+          "kind": "兼并",
+          "summary": "宋军先入潭州，继而攻下岳州、朗州，接管武平军所辖湖南地区。荆南与湖南的接收分为先后两步。",
+          "sourceIds": [
+            "song1"
+          ],
+          "point": [
+            111.7,
+            29.03
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "武平（湖南）",
+              "宋"
+            ]
+          ],
+          "pointName": "朗州"
+        },
+        {
+          "id": "houshu",
+          "year": 965,
+          "date": "965年",
+          "title": "孟昶降宋",
+          "kind": "兼并",
+          "summary": "宋军进抵成都附近，后蜀主孟昶投降。蜀地改隶与后续平定地方抵抗分属不同阶段。",
+          "sourceIds": [
+            "song2"
+          ],
+          "point": [
+            104.07,
+            30.66
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "后蜀",
+              "宋"
+            ]
+          ],
+          "pointName": "成都"
+        },
+        {
+          "id": "nanhan",
+          "year": 971,
+          "date": "971年",
+          "title": "宋取广州，南汉亡",
+          "kind": "兼并",
+          "summary": "宋军抵达广州，刘鋹投降。南汉旧辖的岭南地区并入宋的政治版图。",
+          "sourceIds": [
+            "song2"
+          ],
+          "point": [
+            113.27,
+            23.13
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "南汉",
+              "宋"
+            ]
+          ],
+          "pointName": "广州"
+        },
+        {
+          "id": "jinling",
+          "year": 975,
+          "date": "975年",
+          "title": "金陵城破，李煜降",
+          "kind": "兼并",
+          "summary": "宋军渡江后长期围攻金陵，城破后南唐政权结束。下游吴越当时仍保有独立辖地。",
+          "sourceIds": [
+            "song3"
+          ],
+          "point": [
+            118.78,
+            32.05
+          ],
+          "eventIds": [
+            "battle-song-southern-tang"
+          ],
+          "transfers": [
+            [
+              "南唐",
+              "宋"
+            ]
+          ],
+          "pointName": "金陵"
+        },
+        {
+          "id": "pinghai",
+          "year": 978,
+          "date": "978年 · 四月（史籍纪月）",
+          "title": "陈洪进献漳、泉",
+          "kind": "归附",
+          "summary": "陈洪进以漳、泉二州归宋。地图沿用宋初清源军的概略范围，事件发生时该镇称平海军。",
+          "sourceIds": [
+            "song4"
+          ],
+          "point": [
+            118.59,
+            24.91
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "清源军",
+              "宋"
+            ]
+          ],
+          "pointName": "泉州"
+        },
+        {
+          "id": "wuyue",
+          "year": 978,
+          "date": "978年 · 五月（史籍纪月）",
+          "title": "吴越钱俶纳土",
+          "kind": "归附",
+          "summary": "钱俶将吴越所辖州县交付宋廷，两浙地区结束独立建国。",
+          "sourceIds": [
+            "song4"
+          ],
+          "point": [
+            120.15,
+            30.25
+          ],
+          "eventIds": [],
+          "transfers": [
+            [
+              "吴越",
+              "宋"
+            ]
+          ],
+          "pointName": "杭州"
+        },
+        {
+          "id": "beihan",
+          "year": 979,
+          "date": "979年 · 五月（史籍纪月）",
+          "title": "晋阳受降，北汉亡",
+          "kind": "兼并",
+          "summary": "宋军围攻晋阳，刘继元投降，河东由北汉转归宋。北面的辽境仍在宋控制之外。",
+          "sourceIds": [
+            "song4"
+          ],
+          "point": [
+            112.44,
+            37.72
+          ],
+          "eventIds": [
+            "expand-northern-han"
+          ],
+          "transfers": [
+            [
+              "北汉",
+              "宋"
+            ]
+          ],
+          "pointName": "晋阳"
+        },
+        {
+          "id": "gaoliang",
+          "year": 979,
+          "date": "979年 · 七月（史籍纪月）",
+          "title": "高梁河之败",
+          "kind": "据点",
+          "summary": "宋军在幽州附近败于辽军。晋阳已经归宋，这次败战却使收复幽州的计划受挫，图中保留辽的辖境。",
+          "sourceIds": [
+            "song4"
+          ],
+          "point": [
+            116.33,
+            39.94
+          ],
+          "eventIds": [
+            "battle-gaolianghe"
+          ],
+          "transfers": [],
+          "pointName": "高梁河"
+        }
+      ]
+    },
+    {
+      "id": "southern-song-end",
+      "title": "南宋末局 · 从襄阳到崖山",
+      "startYear": 1273,
+      "endYear": 1279,
+      "baseYear": 1253,
+      "description": "只追踪南宋原辖范围。城点按史书记载依次易手；大区颜色表示朝廷归属或接收状态。临安献降时川、淮仍有宋方守城，流动的海上行朝也无法画出固定陆界。",
+      "sourceIds": [
+        "song46",
+        "song47"
+      ],
+      "colors": {
+        "元": "#4b6587",
+        "诏降待接收区": "#968d81",
+        "闽广争夺区": "#a39175",
+        "旧宋境外 · 参照": "#acafa3"
+      },
+      "partitions": [
+        {
+          "owner": "南宋",
+          "children": [
+            {
+              "parcel": "闽广行朝活动带",
+              "year": 1276,
+              "name": "南宋（闽广行朝）"
+            }
+          ],
+          "remainder": "闽广活动带以外的宋旧地"
+        }
+      ],
+      "steps": [
+        {
+          "id": "song-end-before",
+          "year": 1273,
+          "date": "1273年 · 樊城陷落前",
+          "title": "襄、樊两城仍守汉水",
+          "kind": "起点",
+          "summary": "樊城与襄阳隔汉水相望，两城已遭围攻多年。图中以此前的南宋辖境为参照。",
+          "sourceIds": [
+            "song46"
+          ],
+          "point": null,
+          "eventIds": [],
+          "transfers": []
+        },
+        {
+          "id": "song-end-fancheng",
+          "year": 1273,
+          "date": "1273年 · 咸淳九年正月",
+          "title": "元军攻下汉水北岸的樊城",
+          "kind": "据点",
+          "summary": "元军攻入汉水北岸的樊城，隔江的襄阳尚由吕文焕守卫。两城分列两岸，图上分两步标出。",
+          "sourceIds": [
+            "song46"
+          ],
+          "point": [
+            112.14,
+            32.06
+          ],
+          "pointName": "樊城",
+          "eventIds": [
+            "battle-25"
+          ],
+          "transfers": []
+        },
+        {
+          "id": "song-end-xiangyang",
+          "year": 1273,
+          "date": "1273年 · 咸淳九年二月",
+          "title": "吕文焕以襄阳降元",
+          "kind": "据点",
+          "summary": "樊城失守后，吕文焕以襄阳府降元。至此汉水两岸的要城均已易手。",
+          "sourceIds": [
+            "song46"
+          ],
+          "point": [
+            112.14,
+            32.02
+          ],
+          "pointName": "襄阳",
+          "eventIds": [
+            "battle-25"
+          ],
+          "transfers": []
+        },
+        {
+          "id": "song-end-linan",
+          "year": 1276,
+          "date": "德祐二年正月至二月",
+          "title": "临安交玺，元接收中央官署",
+          "kind": "收缩",
+          "summary": "临安宋廷向伯颜奉玺献降。元使入城封府库、收官印，宋廷诏郡县降元。灰色标出临安降诏所及、各地陆续接收的范围。川淮尚有守城，闽广有宋军继续活动。",
+          "sourceIds": [
+            "song47"
+          ],
+          "point": [
+            120.16,
+            30.24
+          ],
+          "pointName": "临安",
+          "eventIds": [],
+          "transfers": [
+            [
+              "闽广活动带以外的宋旧地",
+              "诏降待接收区"
+            ],
+            [
+              "闽广行朝活动带",
+              "闽广争夺区"
+            ]
+          ]
+        },
+        {
+          "id": "song-end-fuzhou",
+          "year": 1276,
+          "date": "景炎元年五月",
+          "title": "赵昰在福州即位",
+          "kind": "称帝",
+          "summary": "陈宜中、张世杰等在福州拥立赵昰，改元景炎，重新任命官员并派兵。闽广州县有人响应，也有人降元；着色标出双方持续争夺的大致区域。",
+          "sourceIds": [
+            "song47"
+          ],
+          "point": [
+            119.3,
+            26.08
+          ],
+          "pointName": "福州",
+          "eventIds": [],
+          "transfers": []
+        },
+        {
+          "id": "song-end-embark",
+          "year": 1276,
+          "date": "景炎元年十一月",
+          "title": "宋廷出海，福州守臣降元",
+          "kind": "据点",
+          "summary": "赵昰先乘舟离开，王刚中随后以福安府（福州）降元。行朝继续沿海移动，地方武装仍在闽广多处活动。",
+          "sourceIds": [
+            "song47"
+          ],
+          "point": [
+            119.3,
+            26.08
+          ],
+          "pointName": "福州",
+          "eventIds": [],
+          "transfers": []
+        },
+        {
+          "id": "song-end-yashan-court",
+          "year": 1278,
+          "date": "1278年 · 四月至六月（史籍纪月）",
+          "title": "赵昺继位，行朝移驻崖山",
+          "kind": "据点",
+          "summary": "赵昰死后，群臣在碙洲拥立赵昺。六月，宋廷随船队移驻崖山，水师成为朝廷的依托。地图只标此次移驻有据的终点。",
+          "sourceIds": [
+            "song47"
+          ],
+          "point": [
+            113.08,
+            22.28
+          ],
+          "pointName": "崖山",
+          "eventIds": [],
+          "transfers": []
+        },
+        {
+          "id": "song-end-yashan",
+          "year": 1279,
+          "date": "祥兴二年二月",
+          "title": "崖山兵败，南宋行朝覆亡",
+          "kind": "朝廷覆亡",
+          "summary": "张弘范、李恒的元军击败宋军船队，陆秀夫负赵昺投海。南宋的最后一个朝廷覆亡，原宋境按王朝归属归入元；图上各地实际易手有先有后。",
+          "sourceIds": [
+            "song47"
+          ],
+          "point": [
+            113.08,
+            22.28
+          ],
+          "pointName": "崖山",
+          "eventIds": [
+            "battle-26"
+          ],
+          "transfers": [
+            [
+              "闽广活动带以外的宋旧地",
+              "元"
+            ],
+            [
+              "闽广行朝活动带",
+              "元"
+            ]
+          ]
+        }
+      ],
+      "initialOwners": {
+        "大蒙古国": "旧宋境外 · 参照"
+      },
+      "regionStyles": {
+        "旧宋境外 · 参照": {
+          "kind": "context",
+          "note": "取来源图中旧宋境外的轮廓作为地理参照。本章聚焦南宋旧域，北方各汗国的分立与统属未在这里细绘。"
+        },
+        "诏降待接收区": {
+          "kind": "contested",
+          "note": "临安下诏投降后，旧宋各地接收进度不一。此范围兼含已经归元的州县与继续守城的地区。"
+        },
+        "闽广争夺区": {
+          "kind": "contested",
+          "note": "参照1276年来源图中的闽广范围，表示流动行朝及地方军民活动、归附与争夺的大致区域。局部岛屿的实际控制不详。"
+        }
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import {buildTour,phaseLabels,snapshotChanges,TourClock} from './tour-script.js';
 import {readingPeriods,periodContains} from './timeline-periods.js';
 
-export function createTourPlayer({snapshots,moments,themes,sources=[],getYear,onEnter,onExit,onScene,onCamera,onReadDetail}){
+export function createTourPlayer({snapshots,moments,themes,sources=[],getYear,getPoliticalCaption=()=>null,onEnter,onExit,onScene,onCamera,onReadDetail}){
   const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const yr=y=>y<0?`公元前${Math.abs(y)}年`:`公元${y}年`;
   const byId=new Map(moments.map(m=>[m.id,m])),clock=new TourClock();
@@ -51,6 +51,8 @@ export function createTourPlayer({snapshots,moments,themes,sources=[],getYear,on
   function advance(){if(!active)return;if(index===deck.scenes.length-1){if(loop)go(0,true);else{finished=true;controls();}}else go(index+1,true);}
   function arm(){clock.start(duration(),advance);controls();cancelAnimationFrame(frame);progress();}
   function mapDate(s,shown=s.snapshotIndex){
+    const caption=getPoliticalCaption();
+    if(caption){$('#tourMapDate').textContent='事件版图 · '+caption;$('#tourEvidenceNote').textContent='按史料记载定位到本阶段，城镇和领地范围均为概略示意。';return;}
     $('#tourMapDate').textContent=`实色版图：${yr(snapshots[shown].year)}${s.compareIndex!==null&&shown===s.snapshotIndex?' · 虚线基准：'+yr(snapshots[s.compareIndex].year):''}`;
   }
   function applyScene(camera,forceCamera=false){
@@ -115,7 +117,7 @@ export function createTourPlayer({snapshots,moments,themes,sources=[],getYear,on
   $('#tourLoop').onclick=()=>{loop=!loop;controls();};
   $('#tourGlobal').onclick=()=>{pause();onCamera('global',scene());$('#tourCameraStatus').textContent='全图观察 · 已暂停';};
   $('#tourRefocus').onclick=()=>{pause();onScene(scene(),{camera:true,forceCamera:true});mapDate(scene());$('#tourCameraStatus').textContent='已回到当前叙事镜头';};
-  $('#tourBeforeBtn').onclick=()=>{pause();const s=scene();onScene({...s,snapshotIndex:s.compareIndex,compareIndex:null},{camera:false});mapDate(s,s.compareIndex);$('#tourBeforeBtn').classList.add('active');$('#tourAfterBtn').classList.remove('active');};
+  $('#tourBeforeBtn').onclick=()=>{pause();const s=scene();onScene({...s,year:snapshots[s.compareIndex].year,snapshotIndex:s.compareIndex,compareIndex:null,raw:true},{camera:false});mapDate(s,s.compareIndex);$('#tourBeforeBtn').classList.add('active');$('#tourAfterBtn').classList.remove('active');};
   $('#tourAfterBtn').onclick=()=>{pause();applyScene(false);};
   $('#tourReadDetail').onclick=()=>{const item=byId.get(scene().itemId);exit();onReadDetail(item);};
   $('#tourSource').onclick=pause;

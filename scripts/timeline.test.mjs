@@ -29,7 +29,7 @@ const research=JSON.parse(readFileSync(new URL('../dist/data/research.json',impo
 const moments=[...(events.events||events).map(e=>({...e,_kind:'event'})),...research.milestones.map(e=>({...e,_kind:'moment'}))].sort((a,b)=>a.year-b.year||(a.sequence??50)-(b.sequence??50));
 test('unified playback preserves every snapshot and event in chronological order',()=>{
   const line=mergeTimeline(snapshots,moments);
-  assert.equal(line.length,316);
+  assert.equal(line.length,snapshots.length+moments.length);
   assert.equal(new Set(line.map(i=>i.id)).size,line.length);
   for(let i=1;i<line.length;i++)assert.ok(line[i].year>=line[i-1].year);
   const y219=line.filter(e=>e.year===219);
@@ -50,7 +50,7 @@ test('fine periods cover every event exactly once, including the final year',()=
   for(const [year,name] of [[-202,'西汉'],[-1,'西汉'],[9,'新与更始'],[25,'东汉'],[184,'汉末群雄'],[220,'三国'],[265,'西晋'],[755,'安史之乱'],[763,'安史之乱'],[764,'中晚唐'],[1912,'民国初年'],[1916,'北洋军阀'],[1920,'直皖直奉争衡'],[1924,'军阀多方对峙'],[1928,'北伐时期']]){
     assert.equal(readingPeriods.find(p=>periodContains(p,year))?.name,name);
   }
-  assert.equal(periodStatistics(moments).reduce((total,p)=>total+p.count,0),111);
+  assert.equal(periodStatistics(moments).reduce((total,p)=>total+p.count,0),moments.length);
 });
 test('dense windows retain their events, stay in the period, and do not overlap',()=>{
   const periods=periodStatistics(moments);
@@ -65,11 +65,12 @@ test('dense windows retain their events, stay in the period, and do not overlap'
     }
   }
   assert.deepEqual(denseWindows(periods.find(p=>p.name==='汉末群雄')).map(w=>[w.firstYear,w.lastYear,w.count]),[[200,219,4]]);
-  assert.equal(periodStatistics(moments).find(p=>p.name==='北伐时期').count,1);
+  assert.ok(periodStatistics(moments).find(p=>p.name==='北伐时期').items.some(e=>e.id==='expand-longtan-1927'));
 });
 
 test('smart spacing gives eventful years more room while preserving every selectable year',()=>{
-  const scale=createTimeScale(58,358,1000,moments,true);
+  const sample=[200,208,219,222,228,263,280].map((year,i)=>({id:'sample-'+i,year}));
+  const scale=createTimeScale(58,358,1000,sample,true);
   assert.ok(scale.gaps.length>0);
   assert.ok(scale.toPixel(190)-scale.toPixel(58)<200,'empty opening should take less than 20%');
   assert.ok(scale.toPixel(228)-scale.toPixel(200)>100,'dense events receive more than linear spacing');

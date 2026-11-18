@@ -114,3 +114,6 @@ body.presenting{grid-template-rows:0 minmax(0,1fr) 318px}
 @media(max-height:650px) and (min-width:761px){body{grid-template-rows:60px minmax(0,1fr) 306px}body.presenting{grid-template-rows:0 minmax(0,1fr) 306px}}
 
 @media(max-width:760px){.timeline{gap:2px}}
+
+/* Battle studies: goals, constraints and linked stage geography. */
+.actor-card{padding:12px 14px;background:#eeeee2;border-left:2px solid #8a9274;margin:10px 0;border-radius:0 4px 4px 0}.actor-card h4{margin:0 0 7px;font-size:13px}.actor-card p{margin:5px 0}.actor-card p b{color:#586b52;font-weight:600}.stage-select{display:flex;flex-wrap:wrap;gap:5px 10px;align-items:center;width:100%;text-align:left;border:1px solid #d2d5c4;border-radius:4px;padding:9px 10px;margin:0 0 8px}.stage-select small{color:#887052;font-size:10px}.stage-select[aria-pressed=true]{background:#e0e8d6;border-color:#648166}.factor-pin.factor-muted{opacity:.28}.factor-pin.factor-emphasis{box-shadow:0 0 0 4px #a7503526,0 0 0 1px #fff;transform:scale(1.15)}

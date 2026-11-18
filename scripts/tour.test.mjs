@@ -34,7 +34,7 @@ test('player uses real stops, preserves a paused selection when changing speed, 
 test('history keeps every curated event once and adds only evidence-rich geography stops',()=>{
  const deck=make({mode:'history'}),ids=new Set(moments.map(m=>m.id));
  for(const c of historyChapters)for(const id of c.ids){assert.ok(ids.has(id));const stops=deck.scenes.filter(s=>s.itemId===id);assert.equal(stops.filter(s=>s.phase==='event').length,1);assert.ok(stops.length<=2);if(stops.length===2){assert.ok(geographyStops.has(id));assert.equal(stops[1].phase,'focus');assert.ok(stops[1].nodes.length>=3);assert.equal(stops[0].camera.key,stops[1].camera.key);}}
- assert.equal(deck.chapters.length,13);assert.equal(deck.eventCount,35);assert.ok(deck.scenes.length<60);assert.ok(deck.duration<8*60000);
+ assert.equal(deck.chapters.length,13);assert.equal(deck.eventCount,new Set(historyChapters.flatMap(c=>c.ids)).size);assert.ok(deck.scenes.length<60);assert.ok(deck.duration<8*60000);
 });
 
 test('all routes advance chronologically with real map indexes and distinct before/after dates',()=>{

@@ -1,0 +1,284 @@
+#evolutionBtn {
+  flex: none;
+  padding: 7px 11px;
+  border: 1px solid #87987c;
+  border-radius: 4px;
+  background: #f0f1e5;
+  color: #354e38;
+  font: 600 11px var(--sans);
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+#evolutionBtn[aria-expanded="true"] {
+  color: #faf7e9;
+  background: #375844;
+  border-color: #375844;
+}
+.evolution-open .map-context,
+.presenting #evolutionBtn,
+.presenting #evolutionPanel,
+.butian-mode #evolutionBtn,
+.butian-mode #evolutionPanel,
+#evolutionPanel[hidden] {
+  display: none !important;
+}
+#evolutionPanel {
+  position: absolute;
+  z-index: 505;
+  top: 62px;
+  left: 17px;
+  width: min(300px, calc(100% - 78px));
+  max-height: calc(100% - 94px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 11px 13px 9px;
+  border: 1px solid #c5cbb8;
+  border-top: 3px solid #536b4c;
+  border-radius: 5px;
+  background: #faf8ef;
+  color: #2b4335;
+  box-shadow: 0 3px 14px #26392b15;
+}
+#evolutionPanel button,
+#evolutionPanel select,
+#evolutionPanel summary {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+#evolutionPanel :focus-visible {
+  outline: 2px solid #80502b;
+  outline-offset: 1px;
+}
+.evo-head, .evo-head-actions, .evo-controls, .evo-dateline {
+  display: flex;
+  align-items: center;
+}
+.evo-head, .evo-dateline {
+  justify-content: space-between;
+  gap: 8px;
+}
+#evolutionChapter {
+  min-width: 0;
+  max-width: 100%;
+  border: 0;
+  border-bottom: 1px solid #c6cbb9;
+  padding: 2px 3px 2px 0;
+  background-color: transparent;
+  color: #324c38;
+  font: 600 14px var(--serif);
+}
+.evo-head-actions button {
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #54664e;
+  font-size: 19px;
+}
+.evo-stage {
+  margin: 9px 0 0;
+}
+.evo-dateline {
+  color: #755234;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+}
+#evolutionKind {
+  flex: none;
+  background: #eee2cf;
+  color: #795030;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+#evolutionPanel[data-shape="point"] #evolutionKind {
+  color: #365d69;
+  background: #e3ecec;
+}
+#evolutionTitle {
+  display: block;
+  margin-top: 3px;
+  font: 600 18px/1.38 var(--serif);
+}
+#evolutionSummary,
+#evolutionScope {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+#evolutionTransfers {
+  padding: 0;
+  margin: 5px 0 0;
+  list-style: none;
+  color: #775132;
+  font-size: 11px;
+  line-height: 1.5;
+}
+#evolutionRail {
+  display: flex;
+  gap: 3px;
+  margin: 2px 0 0;
+}
+#evolutionRail button {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  height: 23px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+#evolutionRail button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  height: 3px;
+  border-radius: 4px;
+  background: #d8dcca;
+}
+#evolutionRail button.complete::after {
+  background: #8d9e81;
+}
+#evolutionRail button[aria-current="step"]::after {
+  top: 8px;
+  height: 7px;
+  background: #985d3b;
+}
+#evolutionRail button[data-shape="point"]::after {
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  top: 8px;
+  border-radius: 50%;
+  border: 1px solid #729098;
+  background: #edf1e9;
+}
+#evolutionRail button[data-shape="point"].complete::after,
+#evolutionRail button[data-shape="point"][aria-current="step"]::after {
+  background: #486e78;
+}
+#evolutionRail button[data-shape="point"][aria-current="step"]::after {
+  outline: 2px solid #aac2c4;
+  outline-offset: 1px;
+}
+.evo-controls {
+  gap: 4px;
+}
+.evo-controls button {
+  min-height: 28px;
+  padding: 3px 9px;
+  border: 1px solid #c7d0bb;
+  border-radius: 4px;
+  background: #f1f2e7;
+  color: #3a533b;
+  font: 11px var(--sans);
+  white-space: nowrap;
+}
+.evo-controls #evolutionPrev, .evo-controls #evolutionNext {
+  padding: 0 7px;
+  font: 19px Georgia, serif;
+}
+.evo-controls #evolutionPlay, .evo-controls #evolutionCompare[aria-pressed="true"] {
+  background: #395b43;
+  border-color: #395b43;
+  color: #fffaf0;
+}
+.evo-controls #evolutionCompare {
+  margin-left: auto;
+}
+.evo-controls button:disabled {
+  opacity: .44;
+  cursor: default !important;
+}
+#evolutionEvidence {
+  margin-top: 7px;
+  color: #55644d;
+}
+#evolutionEvidence summary {
+  width: fit-content;
+  padding: 2px 0;
+  font-size: 11px;
+}
+#evolutionSources a {
+  display: block;
+  margin-top: 6px;
+  color: #405c41;
+  font-size: 11px;
+  text-underline-offset: 2px;
+}
+@media (max-width: 760px) {
+  #evolutionBtn { padding: 6px 8px; font-size: 10px; }
+  body.evolution-open:not(.presenting) {
+    grid-template-rows: 52px minmax(0, 1fr) 42px;
+  }
+  .evolution-open .timeline > :not(.era-navigation) { display: none !important; }
+  .evolution-open .map-area { --evolution-dock-height: clamp(166px, 26dvh, 213px); }
+  .evolution-open #map { bottom: var(--evolution-dock-height); }
+  body.evolution-open:not(.presenting) .map-legend { bottom: calc(var(--evolution-dock-height) + 22px); }
+  .evolution-open #evolutionPanel {
+    inset: auto 0 0;
+    width: 100%;
+    height: var(--evolution-dock-height);
+    max-height: none;
+    display: grid;
+    grid-template: "head head" auto "stage stage" auto "story story" minmax(0, 1fr) "rail rail" 20px "controls evidence" auto / minmax(0, 1fr) auto;
+    align-items: start;
+    overflow: hidden;
+    padding: 4px 12px 6px;
+    border-inline: 0;
+    border-bottom: 0;
+    border-radius: 0;
+  }
+  .evo-head { grid-area: head; }
+  .evo-stage { grid-area: stage; }
+  #evolutionStory { grid-area: story; overflow: auto; max-height: 100%; }
+  #evolutionRail { grid-area: rail; }
+  .evo-controls { grid-area: controls; }
+  #evolutionEvidence { grid-area: evidence; margin: 0 0 0 8px; align-self: center; }
+  #evolutionPanel:has(#evolutionEvidence[open]) {
+    grid-template: "head" auto "evidence" minmax(0, 1fr) "controls" auto / 1fr;
+  }
+  #evolutionPanel:has(#evolutionEvidence[open]) :is(.evo-stage, #evolutionStory, #evolutionRail) { display: none; }
+  #evolutionEvidence[open] { align-self: stretch; margin: 3px 0; overflow: auto; }
+  #evolutionChapter { font-size: 13px; }
+  #evolutionTitle { font-size: 16px; }
+  #evolutionSummary { margin-top: 3px; }
+  #evolutionTransfers { display: flex; flex-wrap: wrap; gap: 0 10px; margin-top: 2px; }
+  #evolutionTransfers[hidden] { display: none; }
+  .evo-stage { margin-top: 1px; }
+  #evolutionFold { display: none; }
+  #evolutionStory[hidden] { display: block; }
+  .evo-head-actions #evolutionClose { display: flex; gap: 5px; width: auto; height: 26px; padding-inline: 5px; }
+  #evolutionClose::before { content: '返回时间轴'; font: 11px var(--sans); }
+  .evo-controls button { min-height: 28px; }
+  .evo-controls #evolutionPrev, .evo-controls #evolutionNext { min-width: 29px; }
+}
+@media (max-width: 360px) {
+  body:not(.presenting) .topbar { gap: 4px; padding-inline: 7px; }
+  .topbar nav #eventsNav { padding-inline: 4px; }
+}
+@media (max-height: 550px) and (min-width: 761px) {
+  #evolutionPanel { max-height: calc(100% - 74px); top: 56px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #evolutionPanel, #evolutionPanel * { scroll-behavior: auto; }
+}
+
+#readTerritoryChange {
+  display:block;
+  margin-top:7px;
+  padding:5px 9px;
+  border:1px solid #b3c4a6;
+  border-radius:4px;
+  background:#e7eddf;
+  color:#37533c;
+  font-weight:600;
+}

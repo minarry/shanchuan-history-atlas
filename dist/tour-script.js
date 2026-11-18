@@ -7,15 +7,15 @@ export const historyChapters=[
   {id:'qin',title:'列国竞争与秦的统一',start:-770,end:-221,question:'变法、地理通道与长期消耗，怎样改变列国的力量对比？',ids:['moment-shangyang-reform','battle-4','moment-qin-unification']},
   {id:'han',title:'楚汉更替与两汉秩序',start:-221,end:25,question:'中原的胜负如何连接关中根据地、河西走廊与帝国重建？',ids:['battle-6','ancient-hexi','moment-eastern-han']},
   {id:'three-kingdoms',title:'汉末战争与三国归晋',start:25,end:280,question:'北方统一、荆州争夺和长江防线，怎样改变天下格局？',ids:['battle-9','battle-10','ancient-xiangfan','battle-14']},
-  {id:'north-south',title:'南北对峙与隋的统一',start:280,end:589,question:'淮河与长江为何重要？渡江还需要哪些政治与组织条件？',ids:['battle-15','battle-16']},
+  {id:'north-south',title:'南北对峙与隋的统一',start:280,end:589,question:'淮河与长江为何重要？渡江还需要哪些政治与组织条件？',ids:['battle-15','expand-luoyang-494','battle-16']},
   {id:'early-tang',title:'隋唐交通与边疆',start:589,end:755,question:'运河、中原枢纽与遥远边疆，如何被放进同一个政治空间？',ids:['moment-tongji-canal','battle-17','battle-18']},
   {id:'late-tang',title:'安史冲击与唐的终局',start:755,end:907,question:'边军进入中原后，关隘、财政与地方权力怎样相互影响？',ids:['moment-an-lushan-revolt','battle-19','moment-two-tax-law']},
-  {id:'song-liao',title:'五代与宋辽金格局',start:907,end:1127,question:'燕云地形与战争后的和议，怎样塑造多个政权间的关系？',ids:['moment-sixteen-prefectures','moment-chanyuan-peace','battle-21']},
+  {id:'song-liao',title:'五代与宋辽金格局',start:907,end:1127,question:'燕云地形与战争后的和议，怎样塑造多个政权间的关系？',ids:['moment-sixteen-prefectures','expand-huainan-zhou','moment-chanyuan-peace','battle-21']},
   {id:'song-yuan',title:'南宋防线与蒙古扩张',start:1127,end:1279,question:'从江面防守到襄樊枢纽，战争的通道怎样逐步打开？',ids:['battle-23','battle-25','battle-26']},
-  {id:'ming',title:'元明更替与北方防御',start:1279,end:1618,question:'江湖水战与北方危机，如何连接王朝更替和首都防御？',ids:['battle-27','battle-28']},
+  {id:'ming',title:'元明更替与北方防御',start:1279,end:1618,question:'江湖水战与北方危机，如何连接王朝更替和首都防御？',ids:['battle-27','expand-jingnan','expand-beijing-capital','battle-28']},
   {id:'ming-qing',title:'辽西走廊与明清易代',start:1618,end:1689,question:'坚城、财政与联盟选择，为何必须放在同一张大地图上看？',ids:['sarhu','battle-30','moment-nerchinsk']},
-  {id:'late-qing',title:'清帝国与近代海洋压力',start:1689,end:1912,question:'港口、漕运与条约，怎样连接战场压力和政治重组？',ids:['battle-32','moment-shimonoseki','moment-republic-1912']},
-  {id:'warlords',title:'民国军阀与北伐',start:1912,end:1928,question:'中央与地方军事势力的分合，怎样沿铁路、河流和省际门户展开？',ids:['moment-first-cooperation','tingsi']}
+  {id:'late-qing',title:'清帝国与近代海洋压力',start:1689,end:1912,question:'港口、漕运与条约，怎样连接战场压力和政治重组？',ids:['expand-jao-modo','battle-32','moment-shimonoseki','moment-republic-1912']},
+  {id:'warlords',title:'民国军阀与北伐',start:1912,end:1928,question:'中央与地方军事势力的分合，怎样沿铁路、河流和省际门户展开？',ids:['expand-zhizhan-1920','moment-first-cooperation','expand-zhifeng-1924','tingsi','expand-longtan-1927']}
 ];
 
 export const phaseLabels={overview:'时代速写',event:'局势与改变',focus:'地理细读',transition:'版图转折'};

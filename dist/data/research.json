@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "3.5",
   "updated": "2026-11-17",
   "methodology": "通史选读组织问题；条目以所列原典、机构专题核对。政治与地理段落为综合解释；近似坐标用于教学，不是测绘成果。",
   "milestones": [
@@ -164,6 +164,92 @@
       "uncertainty": "公元25年为建武元年；锚点为洛阳，实际即位地点在今河北柏乡、高邑附近。"
     },
     {
+      "id": "expand-yongjia-311",
+      "year": 311,
+      "name": "永嘉之乱与洛阳失守",
+      "category": "政权",
+      "lng": 112.45,
+      "lat": 34.65,
+      "summary": "汉赵军攻入洛阳，晋怀帝被俘。西晋中央遭受决定性打击，但长安仍延续晋政权至316年，江南则逐渐成为新的权力中心。",
+      "politics": "八王之乱长期消耗中央与地方军队，宗王、流民武装和新兴政权分别争夺资源。司马越军覆败后，洛阳已难有效调集援军；城陷是政治与军事网络瓦解的结果，不能简单归因为某一族群更善战。",
+      "geography": "洛阳依赖外部粮运与渡口联系；饥荒、道路阻断和运输失效使名义上的都城难以维持。南迁还涉及淮河、长江通道及江南地方社会的接纳。",
+      "impact": "皇权中心破碎，加速人口迁移和南北重组；北方并存政权的发展与东晋建立，需要在其后数年乃至数十年观察。",
+      "sourceRefs": [
+        "expanc-tongjian87"
+      ],
+      "uncertainty": "311年标记洛阳陷落；永嘉之乱是较长过程，并非单日事件。未把所有南迁人口合并成一条同年迁徙路线。",
+      "tags": [
+        "政权",
+        "粮运",
+        "迁徙"
+      ]
+    },
+    {
+      "id": "expand-luoyang-494",
+      "year": 494,
+      "name": "北魏迁都洛阳",
+      "category": "制度",
+      "lng": 112.6,
+      "lat": 34.73,
+      "summary": "孝文帝把统治中心从平城转向洛阳，迁移官僚与部分人口，并继续推进礼制、官制、姓氏和语言等方面的改革。",
+      "politics": "迁都旨在重新安排统治集团与中原士族的关系，也使皇帝能够围绕新的政治中心推进制度改革。支持者与反对者各有身份、资源和军事利益，不能把它概括成单纯的文化模仿。",
+      "geography": "平城便于联系北边军事基地，洛阳则靠近中原人口、农业和南进路线。中心南移改变财政运输与军政重心，也拉大朝廷和北部军镇之间的制度距离。",
+      "impact": "洛阳成为新的政治文化中心，但北部军镇的地位与发展机会仍需处理；后来的镇户危机有多重原因，不能由迁都一项政策直接推出。",
+      "sourceRefs": [
+        "expanc-tongjian139"
+      ],
+      "uncertainty": "494年采用迁都实施的常见纪年；决策、营建与各项改革跨越多年。锚点为汉魏洛阳故城区域，不是现代洛阳市中心。",
+      "tags": [
+        "迁都",
+        "改革",
+        "军镇"
+      ]
+    },
+    {
+      "id": "expand-six-garrisons-524",
+      "year": 524,
+      "name": "六镇战乱扩展与镇户危机",
+      "category": "政权",
+      "lng": 111.48,
+      "lat": 41.1,
+      "summary": "北魏北部军镇战乱扩大，破六韩拔陵等起兵，怀朔、武川等镇相继受冲击；镇民迁徙与军队重组随后波及河北、关陇。",
+      "politics": "镇户长期承担边防，却面临身份限制、晋升受阻与镇将聚敛。朝廷是否改镇为州、怎样救济和安置军民的争论，反映军镇制度与洛阳政治秩序的裂缝；柔然活动和灾荒又加重危机。",
+      "geography": "军镇沿北缘形成防线，依赖农牧供给与邻镇支援。某镇失守会威胁其他节点，灾乱后的大规模内迁又把边疆矛盾带入河北与关中。",
+      "impact": "北魏中央控制力下降，军人集团和地方势力重新组合，为后来高欢、宇文泰等人的崛起提供了社会与兵源背景。",
+      "sourceRefs": [
+        "expanc-tongjian150"
+      ],
+      "uncertainty": "此条以524年战乱扩展为观察节点；起事发端在纪年与定义上有523、524年不同表述，不据此断言六镇同日同时起兵。",
+      "tags": [
+        "军镇",
+        "制度",
+        "人口迁徙"
+      ]
+    },
+    {
+      "id": "expand-wei-split",
+      "year": 534,
+      "endYear": 535,
+      "name": "北魏分裂为东魏与西魏",
+      "category": "政权",
+      "lng": 112.45,
+      "lat": 34.65,
+      "summary": "534年孝武帝离开洛阳入关中，高欢另立皇帝并经营鄴城；535年宇文泰拥立元宝炬，形成东魏与西魏对峙。",
+      "politics": "分裂源于皇权与军事强人的冲突，也与六镇战乱后形成的军队网络有关。双方都以延续魏统自居，名义皇帝与实际执政者并不相同；地方官员和军队的倒向持续影响双方力量。",
+      "geography": "高欢依托河北资源与晋阳基地，宇文泰依托关中并经营关陇。黄河渡口、河东、潼关和河洛地带由帝国内部联系转为双方争夺的前线。",
+      "impact": "南北对峙之中又出现东西竞争，后来分别发展为北齐、北周。关隘争夺、军事制度与地方动员共同塑造北方再次统一的条件。",
+      "sourceRefs": [
+        "expanc-tongjian156",
+        "expanc-tongjian157"
+      ],
+      "uncertainty": "534—535年分别对应实际分裂与西魏建国；主点设于原共同首都洛阳，用于解释中心瓦解，不表示该地是两国新首都。",
+      "tags": [
+        "政权分裂",
+        "关隘",
+        "军政集团"
+      ]
+    },
+    {
       "id": "moment-tongji-canal",
       "year": 605,
       "name": "通济渠开凿与东都建设",
@@ -293,6 +379,23 @@
       "uncertainty": "盟约见景德元年十二月，公历已入1005；部分叙述依旧历记1004，点位标澶州。"
     },
     {
+      "id": "expand-wang-anshi",
+      "year": 1069,
+      "name": "王安石变法启动",
+      "category": "制度",
+      "summary": "宋神宗任用王安石，设置制置三司条例司，随后围绕财政、农村借贷、水利和军政组织推行一系列新法。各项措施并非同年同时出台。",
+      "politics": "朝廷希望增强财力与军事动员能力，改革却涉及国家、地方官、地主与普通农户之间的利益分配。支持和反对者对执行效果、强制摊派及国家介入范围意见分歧，不能只用忠奸或党派标签解释。",
+      "geography": "开封代表中央决策中心，改革影响则跨越不同农业与商业区域。同一法令在灾荒、市场发达程度和地方行政条件不同的地区，未必产生相同结果。",
+      "impact": "财政和军事组织调整与北宋此后的边疆政策相互作用，也引发长期政策反复。制度能提高资源动员，却不等于所有战争投入都会换来领土扩大。",
+      "lng": 114.35,
+      "lat": 34.8,
+      "sourceRefs": [
+        "expmid-song14",
+        "expmid-song327"
+      ],
+      "uncertainty": "1069年为变法启动年，保甲、免役等措施陆续实施。《宋史·王安石传》带有鲜明评价立场，条目据其核对事项，不照搬其总体褒贬。"
+    },
+    {
       "id": "moment-southern-song-founded",
       "year": 1127,
       "name": "赵构即位与南宋政权延续",
@@ -307,6 +410,23 @@
         "med-songshi-24"
       ],
       "uncertainty": "1127为应天府即位年；“南宋”是后世分期称谓，点位不可误放今南京。"
+    },
+    {
+      "id": "expand-linan-capital",
+      "year": 1138,
+      "name": "南宋都城重心稳定于临安",
+      "category": "迁都",
+      "summary": "经历建康、越州等地的辗转后，高宗朝廷在1138年回到临安，此后杭州成为南宋长期政治中心；朝廷仍沿用行在等名称维系恢复中原的政治表述。",
+      "politics": "皇帝与中央机构需要兼顾安全、财赋和对外战争。临安的长期经营使江南资源更集中于朝廷，也意味着北方恢复目标与现实防御、财政能力之间必须持续权衡。",
+      "geography": "临安依托钱塘江与江南运河，联系富庶的两浙及海上贸易，同时距淮河前线较远。其防御依赖江淮和长江多层屏障，不能只由城边山水解释安全。",
+      "impact": "人口、商业和中央机构向临安汇集，强化东南政治经济重心。前线城池、漕粮通道与都城供给由此形成联系，理解宋金战争须把后方也纳入地图。",
+      "lng": 120.17,
+      "lat": 30.23,
+      "sourceRefs": [
+        "expmid-linan1138",
+        "expmid-song29"
+      ],
+      "uncertainty": "1138年采用长期驻跸格局形成的通行节点，不等于临安在这一年首次设府，也不将朝廷所有先前驻地一概称为正式首都。"
     },
     {
       "id": "moment-shaoxing-peace",
@@ -392,6 +512,24 @@
       "sequence": 10
     },
     {
+      "id": "expand-beijing-capital",
+      "year": 1421,
+      "name": "永乐迁都北京与南北供给",
+      "category": "迁都",
+      "summary": "北京宫殿建成后，明成祖在1421年正式迁都北京。南京保留留都地位及一套重要机构，南北政治空间并非简单的一地替换另一地。",
+      "politics": "朱棣的北方军政基础、皇权经营和蒙古方向的军事压力，共同影响迁都。中央更靠近北部防务，也更需要把江南财赋长期运往北方，统治中心与经济腹地之间形成持续协调任务。",
+      "geography": "北京通过通州连接大运河，运河沿线仓储、河工、船只和陆路接驳组成供给体系。南京则保留南方政务与陵寝等职能，不能仅凭都城移动推断南方重要性下降。",
+      "impact": "北京成为明清主要政治中心，南粮北运和河道维护更深地嵌入国家治理。都城、边军与交通系统彼此依存，为后来的土木堡与北京保卫战提供政治地理背景。",
+      "lng": 116.4,
+      "lat": 39.91,
+      "sourceRefs": [
+        "expmid-dpm-yongle",
+        "expmid-grandcanal",
+        "expmid-nanjing-capital"
+      ],
+      "uncertainty": "1421年指正式迁都；北京营建和运河整治历时多年。地图以京城作锚点，未把现代京杭运河直接标为完整明代漕运路线。"
+    },
+    {
       "id": "moment-qing-beijing",
       "year": 1644,
       "name": "清廷迁都北京",
@@ -422,6 +560,22 @@
         "modern-treaty-nerchinsk"
       ],
       "uncertainty": "点位为议约地；古地名与条约版本需专门考证，不据此描绘精确现代边界。"
+    },
+    {
+      "id": "expand-gaitu-guiliu",
+      "year": 1726,
+      "name": "雍正朝扩大西南改土归流",
+      "category": "制度",
+      "summary": "雍正年间，鄂尔泰等推动西南土司地区改由朝廷任命官员治理，调整府州县、营汛和省界。1726年是这一轮政策的重要起点，相关措施有更早基础并持续多年。",
+      "politics": "清廷试图加强税收、司法和地方军事控制，土司权力、地方社会秩序与中央官僚体系因而发生冲突与重组。归附、谈判、撤换和军事强制同时存在；整合过程伴随战争、迁徙和居民承受的代价。",
+      "geography": "云贵高原山地破碎，跨省管辖与实际交通距离经常不一致。东川、乌蒙等地改隶云南，使行政隶属、调兵时间和通道控制重新匹配；地形重要，但不能据此忽略地方社会的主动选择。",
+      "impact": "中央任命的行政和驻防网络向部分土司地区扩展，重塑西南省界与治理方式。不同地区进展不一，不能把1726年后的所有土司一律视为消失。",
+      "lng": 103.72,
+      "lat": 27.34,
+      "sourceRefs": [
+        "expmid-qing288"
+      ],
+      "uncertainty": "节点位于乌蒙、今昭通地区作区域代表，不是某次战役地点。《清史稿》对当地族群含有旧时代偏见，本项目只据之核对政策、地点和行政事项，不沿用其族群评价。"
     },
     {
       "id": "moment-nanjing-treaty",
@@ -1071,6 +1225,288 @@
       "note": "节点依据与延伸阅读；空间关系为本项目教学分析。"
     },
     {
+      "id": "expanc-hhs18",
+      "title": "《后汉书》卷十八·吴汉传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷18",
+      "note": "核对建武十一至十二年入蜀、广都与成都作战。地理节点和政治解释为项目综合，未采用原文兵力为精确统计。"
+    },
+    {
+      "id": "expanc-hhs23",
+      "title": "《后汉书》卷二十三·窦宪传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷23",
+      "note": "核对永元元年多路出塞、南匈奴参战与燕然纪功；纪功叙述反映汉廷立场，不等于永久控制线。"
+    },
+    {
+      "id": "expanc-yanran-study",
+      "title": "内蒙古大学蒙古学研究中心：燕然山铭考察",
+      "url": "https://mgxzx.imu.edu.cn/info/1010/1386.htm",
+      "note": "2017年联合考察报道，用于说明燕然铭文的实物证据；页面未提供本图坐标，地图仅作区域定位。"
+    },
+    {
+      "id": "expanc-tongjian108",
+      "title": "《资治通鉴》卷一百八·晋纪三十",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷108",
+      "note": "核对395年参合陂之战的联盟破裂、通信阻断、追击与战后杀俘；具体战场位置和人数不作定论。"
+    },
+    {
+      "id": "expanc-tongjian117",
+      "title": "《资治通鉴》卷一百一十七·晋纪三十九",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷117",
+      "note": "刘裕北伐后秦的416年起兵与多路部署；不将军事占领等同于稳定统治。"
+    },
+    {
+      "id": "expanc-tongjian118",
+      "title": "《资治通鉴》卷一百一十八·晋纪四十",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷118",
+      "note": "核对417年黄河、潼关、武关、渭水方向及长安陷落，并参照其后撤军与失去关中的记载。"
+    },
+    {
+      "id": "expanc-tongjian146",
+      "title": "《资治通鉴》卷一百四十六·梁纪二",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷146",
+      "note": "核对507年钟离围城、邵阳洲浮桥、援军协作与水涨火攻。原书本身亦辨析战果数字，不采用夸大的精确人数。"
+    },
+    {
+      "id": "expanc-tongjian158",
+      "title": "《资治通鉴》卷一百五十八·梁纪十四",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷158",
+      "note": "核对543年高仲密降西魏、河桥争夺、邙山攻防和追击争议；作战叙述中的对话按史书记载看待。"
+    },
+    {
+      "id": "expanc-tongjian159",
+      "title": "《资治通鉴》卷一百五十九·梁纪十五",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷159",
+      "note": "核对546年高欢围玉壁、韦孝宽守城、汾水取水与工程攻防；不复原地道和城防设施的精确位置。"
+    },
+    {
+      "id": "expanc-tongjian172",
+      "title": "《资治通鉴》卷一百七十二·陈纪六",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷172",
+      "note": "核对576年北周取晋州、北齐反围、周军回援及晋阳方向进攻。"
+    },
+    {
+      "id": "expanc-tongjian173",
+      "title": "《资治通鉴》卷一百七十三·陈纪七",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷173",
+      "note": "核对577年鄴城失守、高纬逃亡被俘及北周处置北齐官民；北齐余部并非同日全部停止抵抗。"
+    },
+    {
+      "id": "expanc-tongjian87",
+      "title": "《资治通鉴》卷八十七·晋纪九",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷087",
+      "note": "核对311年洛阳粮运崩溃、东海王越军覆败与怀帝被俘；永嘉之乱是多年过程，不限单次攻城。"
+    },
+    {
+      "id": "expanc-tongjian139",
+      "title": "《资治通鉴》卷一百三十九·齐纪五",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷139",
+      "note": "核对494年洛阳营建、迁徙与新都政治安排；迁都决策、实施和服制语言改革分属不同时间。"
+    },
+    {
+      "id": "expanc-tongjian150",
+      "title": "《资治通鉴》卷一百五十·梁纪六",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷150",
+      "note": "核对524年六镇战乱扩展及元深关于镇户地位、晋升与镇将聚敛的奏议。"
+    },
+    {
+      "id": "expanc-tongjian156",
+      "title": "《资治通鉴》卷一百五十六·梁纪十二",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷156",
+      "note": "核对534年孝武帝西行、高欢另立皇帝及东西军政集团分裂。"
+    },
+    {
+      "id": "expanc-tongjian157",
+      "title": "《资治通鉴》卷一百五十七·梁纪十三",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷157",
+      "note": "核对535年元宝炬即位及东魏迁运洛阳宫室；明确西魏建国与534年分裂之间的时间差。"
+    },
+    {
+      "id": "expmid-tongjian270",
+      "title": "《资治通鉴》卷270：梁晋争衡与胡柳陂",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷270",
+      "note": "核对918年交战、辎重失序、周德威战死与土山反击。原典数字和人物对话不作为现代统计或逐字实录。"
+    },
+    {
+      "id": "expmid-tongjian293",
+      "title": "《资治通鉴》卷293：后周淮南战争",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷293",
+      "note": "核对寿州围攻、援军、周军粮运及956—957年战局；政治地理段落为项目综合解释。"
+    },
+    {
+      "id": "expmid-tongjian294",
+      "title": "《资治通鉴》卷294：舟师入江与南唐割地",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷294",
+      "note": "核对958年疏浚、舟师、吴越协同及南唐割让江北、降号议和。"
+    },
+    {
+      "id": "expmid-song4",
+      "title": "《宋史》卷4：宋太宗灭北汉",
+      "url": "https://zh.wikisource.org/zh-hant/宋史/卷004",
+      "note": "核对979年进军、石岭关阻援、投降及随后攻辽；将980年引水毁城与979年战事分开。"
+    },
+    {
+      "id": "expmid-song366",
+      "title": "《宋史》卷366：刘锜传",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷366",
+      "note": "核对顺昌协同守城、城外工事、夜袭与反击；不采信夸张兵力为精确数值。"
+    },
+    {
+      "id": "expmid-song29",
+      "title": "《宋史》卷29：临安驻跸与顺昌战事",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷029",
+      "note": "核对1138年高宗返回临安、长期定都及1140年刘锜在顺昌作战的纪年，与人物传记互参。"
+    },
+    {
+      "id": "expmid-ming5",
+      "title": "《明史》卷5：靖难战争",
+      "url": "https://zh.wikisource.org/zh-hant/明史_(四庫全書本)/卷005",
+      "note": "核对1399—1402年的主要行动、济南受阻和后期南下；官修史受胜者叙事影响。"
+    },
+    {
+      "id": "expmid-dpm-yongle",
+      "title": "故宫博物院：永乐皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226257.html",
+      "note": "核对即位、北京营建和1421年迁都；页面评价与本项目的分析性表述分开。"
+    },
+    {
+      "id": "expmid-qing224",
+      "title": "《清史稿》卷224：张煌言、郑成功传",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷224",
+      "note": "核对1659年长江进攻、沿江响应与南京败退；清方正统立场不直接沿用。"
+    },
+    {
+      "id": "expmid-juehuo29",
+      "title": "《爝火录》卷29：郑军长江战事",
+      "url": "https://zh.wikisource.org/zh-hant/爝火錄/卷二十九",
+      "note": "核对瓜洲、镇江等沿江门户战事，与《清史稿》对读；不据叙事直接生成精确作战图。"
+    },
+    {
+      "id": "expmid-qing474",
+      "title": "《清史稿》卷474：吴三桂、耿精忠、尚之信等传",
+      "url": "https://zh.wikisource.org/zh/清史稿/卷474",
+      "note": "核对三藩集团的行动差异、联盟变化及昆明结局；原典贬称和诛杀叙事须放回其立场理解。"
+    },
+    {
+      "id": "expmid-dpm-san-fan",
+      "title": "故宫博物院：平定三藩",
+      "url": "https://www.dpm.org.cn/court/event/160317.html",
+      "note": "机构专题用于核对1673—1681年整体时段与清廷策略，详细地方战线以原典补充。"
+    },
+    {
+      "id": "expmid-qing281",
+      "title": "《清史稿》卷281：费扬古传",
+      "url": "https://zh.wikisource.org/zh-hans/清史稿/卷281",
+      "note": "核对1696年分路出征、草场粮运限制、昭莫多部署和辎重受袭；不沿用原典族群贬称。"
+    },
+    {
+      "id": "expmid-zhaomodo-study",
+      "title": "袁森坡《康熙与昭莫多之战》节选（第46页）· 故宫博物院院刊1990年第1期",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/1622/T00046_00.pdf",
+      "note": "本链接为文章第46页，核对战斗后段、协同与运输分析；未据此声称已阅全文或确定战场测绘坐标。"
+    },
+    {
+      "id": "expmid-song14",
+      "title": "《宋史》卷14：熙宁二年新法事项",
+      "url": "https://zh.wikisource.org/zh-hans/宋史/卷014",
+      "note": "核对1069年制度启动及财政、水利事项，避免把陆续出台的所有新法压缩为同日事件。"
+    },
+    {
+      "id": "expmid-song327",
+      "title": "《宋史》卷327：王安石传",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷327",
+      "note": "核对新法范围与争论；传记褒贬倾向明显，不能把其政策评价当作无争议定论。"
+    },
+    {
+      "id": "expmid-linan1138",
+      "title": "杭州市文化广电旅游局：杭州宋韵文化资料",
+      "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf",
+      "note": "机构资料采用1138年南宋定都杭州的通行节点，用于核对长期都城格局的纪年。"
+    },
+    {
+      "id": "expmid-grandcanal",
+      "title": "故宫博物院：南北大运河",
+      "url": "https://www.dpm.org.cn/lemmas/243839.html",
+      "note": "核对通州、杭州间运河联系与宫廷物料运输；并非明代完整逐年河道GIS。"
+    },
+    {
+      "id": "expmid-nanjing-capital",
+      "title": "故宫博物院院刊：明留都南京宫廷管理中的外廷诸司",
+      "url": "https://www.dpm.org.cn/Uploads/File/2020/04/15/u5e96af1d02de8.pdf",
+      "note": "核对1421年后南京留都地位、保留机构及宫廷管理功能。"
+    },
+    {
+      "id": "expmid-qing288",
+      "title": "《清史稿》卷288：鄂尔泰与西南改土归流",
+      "url": "https://zh.wikisource.org/zh-hant/清史稿/卷288",
+      "note": "核对雍正四年建议、东川乌蒙等地改隶和府县营汛安排；剔除原典针对族群的偏见性概括。"
+    },
+    {
+      "id": "expmid-tongjian292",
+      "title": "《资治通鉴》卷292：后周出兵淮南与初期运输困难",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷292",
+      "note": "核对955年底李穀出兵和956年柴荣亲征，以及浮桥、水战能力与粮道对初期行动的限制。"
+    },
+    {
+      "id": "expmod-zhizhan",
+      "title": "《中国大百科全书·中国历史》：直皖战争",
+      "url": "https://szzy.7lue.cn/read/fcdc7f28e76bc7877e1d17f9ba4c4f7b/c569236d9a29d739be6e59206c7e641c.md",
+      "note": "核对1920年联盟、东西线与战后更替；数字图书馆转录。地理与目标段落为项目概括。"
+    },
+    {
+      "id": "expmod-fangshan",
+      "title": "房山区政协文史资料：直皖战争与沿线社会",
+      "url": "https://zx.bjfsh.gov.cn/docs/20240705154501684596.pdf",
+      "note": "核对京汉铁路沿线战区及粮草、车辆、民夫征发与败兵影响；地方记述用于补充战争代价。"
+    },
+    {
+      "id": "expmod-first-zhifeng",
+      "title": "中国网络电视台：第一次直奉战争（据当时报刊）",
+      "url": "https://news.cntv.cn/china/20120427/117747.shtml",
+      "note": "选用多线战场、铁路运兵、迂回与退出关外的记述。文章转述报刊，战时传闻和精确兵数未直接采用。"
+    },
+    {
+      "id": "expmod-survey-zhifeng",
+      "title": "《二十世纪中国史纲》：第一次直奉战争",
+      "url": "https://szzy.7lue.cn/read/0b33f622e67c4b7333256076804367a8/49438fd41e7a127ef23340c2d0537660.md",
+      "note": "选读联盟解体与中央权力之争，核对长辛店、固安及马厂三路作战；不将书中的政治归因当作唯一解释。"
+    },
+    {
+      "id": "expmod-coup-documents",
+      "title": "徐锡祺辑：北京政变文电辑录",
+      "url": "https://www.krzzjn.com/uploadfile/2020/0919/20200919052928231.pdf",
+      "note": "按日报刊与文电汇编，核对1924年10月23日政变、国民军成立和后续政治协商。公开文电表态不等同于完整内在动机。"
+    },
+    {
+      "id": "expmod-coup-context",
+      "title": "应急管理部转载党史资料：1924年北方政局与孙中山北上",
+      "url": "https://www.mem.gov.cn/xw/ztzl/2021/dsxxjy/xxfd/202103/t20210329_382243.shtml",
+      "note": "核对直系失败后冯、张、段之间的关系及邀请孙中山北上的背景。"
+    },
+    {
+      "id": "expmod-coup-survey",
+      "title": "《中国大革命史纲要》：北京政变和国民军的成立",
+      "url": "https://szzy.7lue.cn/read/ece0be9b4aea8a99a7210768f114fef3/425ccd6cb37be6f0d58ca0473934fad3.md",
+      "note": "选读山海关、热河方向部署与政治变化；图面为区域联系解释，不复原部队行军线。"
+    },
+    {
+      "id": "expmod-longtan-history",
+      "title": "白寿彝主编《中国通史》第十二卷：孙传芳",
+      "url": "https://szzy.7lue.cn/read/103ba03baace601cb5d347abbf1afea8/048e3d1e56e8263e8c9ba77d9291af85.md",
+      "note": "选读北伐后期孙传芳在长江下游的进退与龙潭作战。仅采用与本条相关段落，不声称通读全卷。"
+    },
+    {
+      "id": "expmod-longtan-rail",
+      "title": "人民网文化：龙潭战役与沪宁铁路",
+      "url": "https://culture.people.com.cn/n/2014/0804/c172318-25395695.html",
+      "note": "核对龙潭地理位置及沪宁铁路联系；人物评价与文学化描写未直接采用。"
+    },
+    {
+      "id": "expmod-longtan-huangpu",
+      "title": "黄埔军校同学会史料：龙潭战役增援记述",
+      "url": "https://www.huangpu.org.cn/hprl/201801/t20180131_11913050.html",
+      "note": "核对8月下旬渡江和沿沪宁线调集援军的片段，与通史节点相互参照。"
+    },
+    {
       "id": "survey-lu-qin",
       "title": "吕思勉《吕著中国通史》第二十三章：春秋战国的竞争和秦国的统一",
       "url": "https://szzy.7lue.cn/read/40cc93f2ae454ff0e51070b346bfb9ea/62709f47d962040d431b71b052d57f8e.md",
@@ -1119,6 +1555,18 @@
       "title": "谭其骧与《中国历史地图集》· 复旦大学介绍",
       "url": "https://news.fudan.edu.cn/2021/0524/c1247a108976/page.htm",
       "note": "后续校勘书目。未扫描或再分发该地图集，也未据此新增精确边界。"
+    },
+    {
+      "id": "expmod-survey-zhifeng",
+      "title": "《二十世纪中国史纲》：第一次直奉战争",
+      "url": "https://szzy.7lue.cn/read/0b33f622e67c4b7333256076804367a8/49438fd41e7a127ef23340c2d0537660.md",
+      "note": "选读联盟解体与中央权力之争，核对长辛店、固安及马厂三路作战；不将书中的政治归因当作唯一解释。"
+    },
+    {
+      "id": "expmod-longtan-history",
+      "title": "白寿彝主编《中国通史》第十二卷：孙传芳",
+      "url": "https://szzy.7lue.cn/read/103ba03baace601cb5d347abbf1afea8/048e3d1e56e8263e8c9ba77d9291af85.md",
+      "note": "选读北伐后期孙传芳在长江下游的进退与龙潭作战。仅采用与本条相关段落，不声称通读全卷。"
     }
   ],
   "themes": [
@@ -1133,7 +1581,8 @@
         "ancient-yique",
         "battle-4",
         "ancient-handan",
-        "moment-qin-unification"
+        "moment-qin-unification",
+        "expand-northern-han"
       ]
     },
     {
@@ -1230,7 +1679,50 @@
         "battle-32",
         "battle-33",
         "wuchang",
-        "tingsi"
+        "tingsi",
+        "expand-longtan-1927"
+      ]
+    },
+    {
+      "id": "northern-reordering",
+      "name": "北方重组：从淝水到隋唐之前",
+      "question": "统一战争如何与迁都、边镇和政权分裂相连？",
+      "description": "把前秦失败、北魏改革与东西对峙中的山河攻防连起来看。军事胜利、制度整合和长期统治需要分别检验。",
+      "ids": [
+        "battle-15",
+        "expand-canhe-395",
+        "expand-liuyu-qin",
+        "expand-luoyang-494",
+        "expand-six-garrisons-524",
+        "expand-wei-split",
+        "expand-mangshan-543",
+        "expand-yubi-546",
+        "expand-zhou-qi-576"
+      ]
+    },
+    {
+      "id": "capital-and-waterways",
+      "name": "五代至明：都城与运输网络",
+      "question": "为何取得一座都城，还要争夺周围的水路与腹地？",
+      "description": "从五代河上攻防、后周淮南经营到宋灭北汉、南宋都城和明迁北京，比较政治中心需要什么样的交通支撑。",
+      "ids": [
+        "expand-huliupo",
+        "expand-huainan-zhou",
+        "expand-northern-han",
+        "expand-linan-capital",
+        "expand-beijing-capital"
+      ]
+    },
+    {
+      "id": "warlord-railways",
+      "name": "京畿与长江：军阀的交通与联盟",
+      "question": "铁路加快了调兵，为什么仍解决不了统治整合？",
+      "description": "按直皖、两次直奉与龙潭串读，区分战线突破、联盟转向、首都易手和战后政治安排。",
+      "ids": [
+        "expand-zhizhan-1920",
+        "expand-zhifeng-1922",
+        "expand-zhifeng-1924",
+        "expand-longtan-1927"
       ]
     }
   ]

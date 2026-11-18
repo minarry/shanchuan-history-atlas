@@ -14,6 +14,7 @@ for(const s of r.sources){assert(s.title&&s.note&&/^https?:\/\//.test(s.url),'So
 for(const e of all){
  assert(e.name&&Number.isInteger(e.year)&&e.year!==0&&e.year>=-2070&&e.year<=MAX_YEAR,e.id+' year');
  if(e.endYear)assert(e.endYear<=MAX_YEAR&&e.endYear>=e.year,e.id+' endYear');
+ if(e.startYear)assert(Number.isInteger(e.startYear)&&e.startYear!==0&&e.startYear<=e.year,e.id+' startYear');
  coord(e);assert(e.politics?.length>=15&&e.impact?.length>=10&&e.uncertainty,e.id+' explanatory fields');
  assert(e.sourceRefs?.length&&e.sourceRefs.every(id=>sourceIds.has(id)),e.id+' grounded references');
  const base=snapshots.findLast(s=>s.year<=e.year);assert(base&&base.year<=e.year,'Do not assign a later map');
@@ -22,6 +23,12 @@ for(const e of all){
   assert(e.parties?.length>=3,e.id+' parties');
   assert(e.stages?.length>=3&&e.stages.every(s=>s.title&&s.description),e.id+' stages');
   assert(e.geoFactors?.length>=2&&e.geoFactors.every(f=>f.name&&f.role),e.id+' terrain nodes');e.geoFactors.forEach(coord);
+  for(const s of e.stages)if(s.factorIndices){
+   assert(s.factorIndices.length>0&&new Set(s.factorIndices).size===s.factorIndices.length,e.id+' distinct stage locations');
+   assert(s.factorIndices.every(i=>Number.isInteger(i)&&i>=0&&i<e.geoFactors.length),e.id+' stage locations resolve');
+  }
+  if(e.actors)assert(e.actors.length>=2&&e.actors.every(a=>a.name&&a.objective&&a.constraint),e.id+' political actors');
+  if(e.strategicQuestion)assert(e.turningPoint&&e.stages.some(s=>s.factorIndices?.length),e.id+' complete battle study');
   for(const rt of e.routes||[]){assert(rt.name&&rt.note&&rt.coordinates.length>=2);rt.coordinates.forEach(([lng,lat])=>coord({lng,lat}));}
  }else for(const k of ['summary','category','geography'])assert(e[k],e.id+' '+k);
 }
